@@ -1,18 +1,5 @@
-# This is a sample Python script.
+#INF1002 Python Project Group 7
+import pandas
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-    print("hello")
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+data = pandas.read_csv('covid-19-daily-figures.csv')
+print(data)
