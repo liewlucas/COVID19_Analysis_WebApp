@@ -6,6 +6,10 @@ import pandas as pd
 #streamlit for gui
 import streamlit as st
 
+st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
+st.write("Hello")
+st.write('---')
 
-data = pandas.read_csv('covid-19-daily-figures.csv')
-print(data)
+# covid daily figures
+data = pd.read_csv('covid-19-daily-figures.csv')
+st.table(data)
