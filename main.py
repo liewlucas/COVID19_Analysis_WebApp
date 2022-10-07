@@ -7,5 +7,7 @@ import pandas as pd
 import streamlit as st
 
 
-data = pandas.read_csv('covid-19-daily-figures.csv')
+data = pd.read_csv('covid-19-daily-figures.csv')
 print(data)
+
+#hello
