@@ -13,5 +13,3 @@ st.write('---')
 # covid daily figures
 data = pd.read_csv('covid-19-daily-figures.csv')
 st.table(data)
-
-#hello
