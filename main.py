@@ -11,7 +11,7 @@ st.write("Hello")
 st.write('---')
 
 # covid daily figures
-data = pd.read_csv('covid-19-daily-figures.csv')
-st.table(data)
+df_json = pd.read_json('output1.json')
+print(df_json)
 
-#hello
+st.table(df_json)
