@@ -11,7 +11,7 @@ st.title("Travel Advisory")
 df_file = pd.read_csv("test_data.csv")  # ** change input file
 
 
-# User to select origin and destination to be displayed
+# Option 2: User to select origin and destination to be displayed
 origin, destination = st.columns(2)
 with origin:
     user_origin_country = st.selectbox(
@@ -28,108 +28,113 @@ with destination:
 # Setting country names as index in dataframe
 df_file.set_index("country", inplace=True)
 st.markdown("---")
-st.header(f"Travelling to {user_destination_country} | Pre-requisites and Regulations")
+
+if user_origin_country == user_destination_country:
+    st.error("You are not travelling anywhere. Please change your selection.")
+
+else:
+    st.header(f"Travelling to {user_destination_country} | Pre-requisites and Regulations")
 
 
-# function to locate destination country's data from country name index
-def destination_advisory(column_name):
-    return st.markdown(df_file.loc[user_destination_country][column_name], unsafe_allow_html=False)
+    # function to locate destination country's data from country name index
+    def destination_advisory(column_name):
+        return st.markdown(df_file.loc[user_destination_country][column_name], unsafe_allow_html=False)
 
 
-# function to locate origin country's data from country name index
-def origin_advisory(column_name):
-    return st.markdown(df_file.loc[user_origin_country][column_name], unsafe_allow_html=False)
+    # function to locate origin country's data from country name index
+    def origin_advisory(column_name):
+        return st.markdown(df_file.loc[user_origin_country][column_name], unsafe_allow_html=False)
 
 
-# function to display logo image
-def logo(image):
-    st.image(image, width=70)
+    # function to display logo image
+    def logo(image):
+        st.image(image, width=70)
 
 
-# TRAVELLING TO 1st ROW: divide into 3 columns to display data
-testing, quarantine, masks = st.columns(3, gap="medium")
-with testing:
-    logo('testing_logo.png')
-    st.subheader("Covid-19 Testing Requirements")
-    destination_advisory("testing")
-with quarantine:
-    logo('quarantine_logo.png')
-    st.subheader("Quarantine Requirements")
-    destination_advisory("quarantine")
-with masks:
-    logo('mask_logo.png')
-    st.subheader("Mask Wearing Requirements")
-    destination_advisory("masks")
+    # TRAVELLING TO 1st ROW: divide into 3 columns to display data
+    testing, quarantine, masks = st.columns(3, gap="medium")
+    with testing:
+        logo('testing_logo.png')
+        st.subheader("Covid-19 Testing Requirements")
+        destination_advisory("testing")
+    with quarantine:
+        logo('quarantine_logo.png')
+        st.subheader("Quarantine Requirements")
+        destination_advisory("quarantine")
+    with masks:
+        logo('mask_logo.png')
+        st.subheader("Mask Wearing Requirements")
+        destination_advisory("masks")
 
-# TRAVELLING TO 2nd ROW: divide into 3 columns to display data
-vaccination, forms, insurance = st.columns(3, gap="medium")
-with vaccination:
-    logo('vaccine_logo.png')
-    st.subheader("Vaccination Requirements")
-    destination_advisory("vaccination")
-with forms:
-    logo('forms_logo.png')
-    st.subheader("Forms/ Visas Requirements")
-    destination_advisory("forms")
-with insurance:
-    logo('insurance_logo.png')
-    st.subheader("Insurance Requirements")
-    destination_advisory("insurance")
+    # TRAVELLING TO 2nd ROW: divide into 3 columns to display data
+    vaccination, forms, insurance = st.columns(3, gap="medium")
+    with vaccination:
+        logo('vaccine_logo.png')
+        st.subheader("Vaccination Requirements")
+        destination_advisory("vaccination")
+    with forms:
+        logo('forms_logo.png')
+        st.subheader("Forms/ Visas Requirements")
+        destination_advisory("forms")
+    with insurance:
+        logo('insurance_logo.png')
+        st.subheader("Insurance Requirements")
+        destination_advisory("insurance")
 
-st.markdown("---")
+    st.markdown("---")
 
-# RETURNING TO 1st ROW: divide into 3 columns to display data
-st.header(f"Returning to {user_origin_country} | Pre-requisites and Regulations")
-testing, quarantine, masks = st.columns(3, gap="medium")
-with testing:
-    logo('testing_logo.png')
-    st.subheader("Covid-19 Testing Requirements")
-    origin_advisory("testing")
-with quarantine:
-    logo('quarantine_logo.png')
-    st.subheader("Quarantine Requirements")
-    origin_advisory("quarantine")
-with masks:
-    logo('mask_logo.png')
-    st.subheader("Mask Wearing Requirements")
-    origin_advisory("masks")
+    # RETURNING TO 1st ROW: divide into 3 columns to display data
+    st.header(f"Returning to {user_origin_country} | Pre-requisites and Regulations")
+    testing, quarantine, masks = st.columns(3, gap="medium")
+    with testing:
+        logo('testing_logo.png')
+        st.subheader("Covid-19 Testing Requirements")
+        origin_advisory("testing")
+    with quarantine:
+        logo('quarantine_logo.png')
+        st.subheader("Quarantine Requirements")
+        origin_advisory("quarantine")
+    with masks:
+        logo('mask_logo.png')
+        st.subheader("Mask Wearing Requirements")
+        origin_advisory("masks")
 
-# RETURNING TO 2nd ROW: divide into 3 columns to display data
-vaccination, forms, insurance = st.columns(3, gap="medium")
-with vaccination:
-    logo('vaccine_logo.png')
-    st.subheader("Vaccination Requirements")
-    origin_advisory("vaccination")
-with forms:
-    logo('forms_logo.png')
-    st.subheader("Forms/ Visas Requirements")
-    origin_advisory("forms")
-with insurance:
-    logo('insurance_logo.png')
-    st.subheader("Insurance Requirements")
-    origin_advisory("insurance")
+    # RETURNING TO 2nd ROW: divide into 3 columns to display data
+    vaccination, forms, insurance = st.columns(3, gap="medium")
+    with vaccination:
+        logo('vaccine_logo.png')
+        st.subheader("Vaccination Requirements")
+        origin_advisory("vaccination")
+    with forms:
+        logo('forms_logo.png')
+        st.subheader("Forms/ Visas Requirements")
+        origin_advisory("forms")
+    with insurance:
+        logo('insurance_logo.png')
+        st.subheader("Insurance Requirements")
+        origin_advisory("insurance")
 
-st.markdown("---")
-
-
-# locate the rows of destination and origin countries and create one dataframe to prepare for export
-download_df = df_file.loc[[user_destination_country, user_origin_country]]
+    st.markdown("---")
 
 
-# function to convert download_df into csv for exporting
-@st.cache
-def convert_to_csv(df):
-    return df.to_csv(header=True, index=True).encode('utf-8')
+    # locate the rows of destination and origin countries and create one dataframe to prepare for export
+    download_df = df_file.loc[[user_destination_country, user_origin_country]]
 
 
-download_csv = convert_to_csv(download_df)
+    # function to convert download_df into csv for exporting
+    @st.cache
+    def convert_to_csv(df):
+        return df.to_csv(header=True, index=True).encode('utf-8')
 
 
-# download csv file for specified destination and origin countries
-st.download_button(
-    label="Download current travel advisory as .csv",
-    data=download_csv,
-    file_name=f"{user_destination_country} and {user_origin_country} travel advisory.csv",
-    mime="text/csv",
-    key='download-csv'
-)
+    download_csv = convert_to_csv(download_df)
+
+
+    # download csv file for specified destination and origin countries
+    st.download_button(
+        label="Download current travel advisory as .csv",
+        data=download_csv,
+        file_name=f"{user_destination_country} and {user_origin_country} travel advisory.csv",
+        mime="text/csv",
+        key='download-csv'
+    )
