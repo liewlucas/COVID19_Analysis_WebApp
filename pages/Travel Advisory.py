@@ -11,24 +11,7 @@ st.title("Travel Advisory")
 df_file = pd.read_csv("test_data.csv")  # ** change input file
 
 
-# country_list=[]
-# for i in range(len(df_file)):
-    # print(df_file.iloc[i,0].split(','))
-    # raw_country_list = df_file.iloc[i, 0].split(',')
-    #print(raw_country_list)
-
-    # country_list.append(df_file.iloc[i, 0])
-#destination_country=df_file.apply(lambda row: row["country"], axis=1))
-# print(country_list)
-
-
-# # Option 1: User to search country and display all data from specified country
-# user_input_country = st.text_input("Which country do you want to search for?")
-#
-# df_file.loc[df_file['country'] == user_input_country]
-
-
-# Option 2: User to select origin and destination to be displayed
+# User to select origin and destination to be displayed
 origin, destination = st.columns(2)
 with origin:
     user_origin_country = st.selectbox(
@@ -133,10 +116,6 @@ st.markdown("---")
 download_df = df_file.loc[[user_destination_country, user_origin_country]]
 
 
-# if st.button("Download travel advisory as csv"):
-#     download_df = df_file.loc[[user_destination_country, user_origin_country]]
-#     download_df.to_csv(f"{user_destination_country} and {user_origin_country} travel advisory.csv", header=True, index=False)
-
 # function to convert download_df into csv for exporting
 @st.cache
 def convert_to_csv(df):
@@ -154,48 +133,3 @@ st.download_button(
     mime="text/csv",
     key='download-csv'
 )
-
-
-# st.download_button(
-#     label=f"Download travel advisory as csv",
-#     data=download_df,
-#     file_name=f"{user_destination_country} and {user_origin_country} travel advisory.csv",
-#     mime="text/csv"
-# )
-
-
-
-
-
-
-
-
-
-# # checkboxes for user to select what data they want to export
-# data_options=["data1", "data2"]
-# data_checkboxes=[st.checkbox(data) for data in data_options]
-#
-# # combining selected data
-# checked_data_options=[data for data, checked in zip(data_options, data_checkboxes) if checked]
-# user_download_file={"col1": ['a,b,c'], "col2": ['a,b,c']}
-# df_user_download_file = pd.DataFrame(data=user_download_file)
-# csv_export = df_user_download_file.to_csv(df_user_download_file, encoding='utf-8')
-#
-# # user_download_file = {
-# #     df_data1 header: data
-# #     df_data2 header: data
-# # }
-#
-# # if data_1:
-# #     user_download_file.append(data_1)
-# #
-# # if data_2:
-# #     user_download_file.append(data_2)
-#
-# # for users to export data
-# st.download_button(
-#     label="Download selected data as CSV",
-#     data=output1.scv,
-#     file_name="Covid-19 regulation for [country]",
-#     mime="text/csv"
-#     )
