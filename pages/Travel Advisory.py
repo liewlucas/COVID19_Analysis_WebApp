@@ -49,30 +49,30 @@ def logo(image):
 # TRAVELLING TO 1st ROW: divide into 3 columns to display data
 testing, quarantine, masks = st.columns(3, gap="medium")
 with testing:
-    logo('images/testing_logo.png')
+    logo('testing_logo.png')
     st.subheader("Covid-19 Testing Requirements")
     destination_advisory("testing")
 with quarantine:
-    logo('images/quarantine_logo.png')
+    logo('quarantine_logo.png')
     st.subheader("Quarantine Requirements")
     destination_advisory("quarantine")
 with masks:
-    logo('images/mask_logo.png')
+    logo('mask_logo.png')
     st.subheader("Mask Wearing Requirements")
     destination_advisory("masks")
 
 # TRAVELLING TO 2nd ROW: divide into 3 columns to display data
 vaccination, forms, insurance = st.columns(3, gap="medium")
 with vaccination:
-    logo('images/vaccine_logo.png')
+    logo('vaccine_logo.png')
     st.subheader("Vaccination Requirements")
     destination_advisory("vaccination")
 with forms:
-    logo('images/forms_logo.png')
+    logo('forms_logo.png')
     st.subheader("Forms/ Visas Requirements")
     destination_advisory("forms")
 with insurance:
-    logo('images/insurance_logo.png')
+    logo('insurance_logo.png')
     st.subheader("Insurance Requirements")
     destination_advisory("insurance")
 
@@ -82,30 +82,30 @@ st.markdown("---")
 st.header(f"Returning to {user_origin_country} | Pre-requisites and Regulations")
 testing, quarantine, masks = st.columns(3, gap="medium")
 with testing:
-    logo('images/testing_logo.png')
+    logo('testing_logo.png')
     st.subheader("Covid-19 Testing Requirements")
     origin_advisory("testing")
 with quarantine:
-    logo('images/quarantine_logo.png')
+    logo('quarantine_logo.png')
     st.subheader("Quarantine Requirements")
     origin_advisory("quarantine")
 with masks:
-    logo('images/mask_logo.png')
+    logo('mask_logo.png')
     st.subheader("Mask Wearing Requirements")
     origin_advisory("masks")
 
 # RETURNING TO 2nd ROW: divide into 3 columns to display data
 vaccination, forms, insurance = st.columns(3, gap="medium")
 with vaccination:
-    logo('images/vaccine_logo.png')
+    logo('vaccine_logo.png')
     st.subheader("Vaccination Requirements")
     origin_advisory("vaccination")
 with forms:
-    logo('images/forms_logo.png')
+    logo('forms_logo.png')
     st.subheader("Forms/ Visas Requirements")
     origin_advisory("forms")
 with insurance:
-    logo('images/insurance_logo.png')
+    logo('insurance_logo.png')
     st.subheader("Insurance Requirements")
     origin_advisory("insurance")
 
