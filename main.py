@@ -88,7 +88,7 @@ with st.container():
         st_lottie(animation2, height=200)
 
     with col2:
-        st.title("COVID19: Analysed")
+        st.title("COVID-19: Analysed")
         st.write("_This project seeks to provide an all-in-one platform to provide the reliable up-to-date information of the Covid-19 situation in Singapore and abroad._")
 
     with col3:

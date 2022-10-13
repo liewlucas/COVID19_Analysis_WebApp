@@ -7,6 +7,28 @@ import streamlit as st
 st.set_page_config(page_title="My Webpage", page_icon=":airplane:", layout="wide")
 st.title("Travel Advisory")
 
+
+# function to locate destination country's data from country name index
+def destination_advisory(column_name):
+    return st.markdown(df_file.loc[user_destination_country][column_name], unsafe_allow_html=False)
+
+
+# function to locate origin country's data from country name index
+def origin_advisory(column_name):
+    return st.markdown(df_file.loc[user_origin_country][column_name], unsafe_allow_html=False)
+
+
+# function to display logo image
+def logo(image):
+    st.image(image, width=70)
+
+
+# function to convert df into csv for exporting
+@st.cache
+def convert_to_csv(df):
+    return df.to_csv(header=True, index=True).encode('utf-8')
+
+
 # convert csv to df
 df_file = pd.read_csv("test_data.csv")  # ** change input file
 
@@ -24,32 +46,44 @@ with destination:
         options=df_file['country'].unique(),
     )
 
+st.markdown("---")
 
 # Setting country names as index in dataframe
 df_file.set_index("country", inplace=True)
-st.markdown("---")
 
+# Reject input if origin and destination is the same
 if user_origin_country == user_destination_country:
     st.error("You are not travelling anywhere. Please change your selection.")
+    # st.markdown("Select your origin and destination country to view the latest Covid-19 travel advisory")
+    st.header("Travelling Pre-requisites and Regulations")
 
+    # First row to show type of data that will be displayed
+    testing, quarantine, masks = st.columns(3, gap="medium")
+    with testing:
+        logo('testing_logo.png')
+        st.subheader("Covid-19 Testing Requirements")
+    with quarantine:
+        logo('quarantine_logo.png')
+        st.subheader("Quarantine Requirements")
+    with masks:
+        logo('mask_logo.png')
+        st.subheader("Mask Wearing Requirements")
+
+    # Second row to show type of data that will be displayed
+    vaccination, forms, insurance = st.columns(3, gap="medium")
+    with vaccination:
+        logo('vaccine_logo.png')
+        st.subheader("Vaccination Requirements")
+    with forms:
+        logo('forms_logo.png')
+        st.subheader("Forms/ Visas Requirements")
+    with insurance:
+        logo('insurance_logo.png')
+        st.subheader("Insurance Requirements")
+
+# accept input and display specified countries' travel advisory
 else:
     st.header(f"Travelling to {user_destination_country} | Pre-requisites and Regulations")
-
-
-    # function to locate destination country's data from country name index
-    def destination_advisory(column_name):
-        return st.markdown(df_file.loc[user_destination_country][column_name], unsafe_allow_html=False)
-
-
-    # function to locate origin country's data from country name index
-    def origin_advisory(column_name):
-        return st.markdown(df_file.loc[user_origin_country][column_name], unsafe_allow_html=False)
-
-
-    # function to display logo image
-    def logo(image):
-        st.image(image, width=70)
-
 
     # TRAVELLING TO 1st ROW: divide into 3 columns to display data
     testing, quarantine, masks = st.columns(3, gap="medium")
@@ -119,16 +153,7 @@ else:
 
     # locate the rows of destination and origin countries and create one dataframe to prepare for export
     download_df = df_file.loc[[user_destination_country, user_origin_country]]
-
-
-    # function to convert download_df into csv for exporting
-    @st.cache
-    def convert_to_csv(df):
-        return df.to_csv(header=True, index=True).encode('utf-8')
-
-
     download_csv = convert_to_csv(download_df)
-
 
     # download csv file for specified destination and origin countries
     st.download_button(
