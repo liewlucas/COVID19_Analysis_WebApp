@@ -13,6 +13,8 @@ from streamlit_option_menu import option_menu
 import requests
 from streamlit_lottie import st_lottie
 
+import urllib
+
 #------ FUNCTIONS ------
 def profilepic(image):
     st.image(image, width=100)
@@ -22,7 +24,44 @@ def teamdetails(name, id):
     st.write("Student ID: ",id)
 
 def mainpage():
-    st.write("Write")
+    st.write("---")
+    st.header("COVID19 at a glance")
+    with st.expander("Search and Filter"):
+        userinput = st.text_input("Please Select a Country you would like to See.")
+    df = pd.read_csv('covid-19-daily-figures.csv')
+    st.write(df)
+    st.write("---")
+    if userinput:
+        st.subheader("Interested in " + userinput + "?")
+        st.write("Feel Free to click the buttons below to see other COVID19 related Data.")
+        st.write("###")
+        st.write(f'''
+            <a target="_self" href="Travel_Advisory">
+                <button 
+                style="background-color: #FA5F55; 
+                color: white; 
+                border: 2px solid #E30B5C;
+                border-radius: 5px;">
+                    Travel Advisories
+                </button>
+            </a>
+            ''',
+                 unsafe_allow_html=True
+                 )
+        st.write("###")
+        st.write(f'''
+                            <a target="_self" href="Clinics">
+                                <button 
+                                style="background-color: #87CEEB; 
+                                color: white; 
+                                border: 2px solid #6082B6s;
+                                border-radius: 5px;">
+                                    Pre-Departure ART
+                                </button>
+                            </a>
+                            ''',
+                 unsafe_allow_html=True
+                 )
 
 
 def welcomepage():
@@ -99,8 +138,8 @@ with st.container():
 
 selected = option_menu(
     menu_title=None,
-    options=["Welcome", "Main", "Travel Regulations"],
-    icons=["house","book","envelope"],
+    options=["Welcome", "Covid19 Statistics"],
+    icons=["house","book"],
     menu_icon="cast",
     default_index=0,
     orientation="horizontal"
@@ -109,7 +148,7 @@ selected = option_menu(
 if selected == "Welcome":
     welcomepage()
 
-elif selected == "Main":
+elif selected == "Covid19 Statistics":
     mainpage()
 
 
