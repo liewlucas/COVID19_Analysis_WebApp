@@ -1,7 +1,4 @@
-# pandas for data processing
 import pandas as pd
-
-# streamlit for gui
 import streamlit as st
 
 st.set_page_config(page_title="My Webpage", page_icon=":airplane:", layout="wide")
@@ -23,7 +20,7 @@ def logo(image):
     st.image(image, width=70)
 
 
-# function to convert download_df into csv for exporting
+# function to convert df into csv for exporting
 @st.cache
 def convert_to_csv(df):
     return df.to_csv(header=True, index=True).encode('utf-8')
@@ -31,6 +28,7 @@ def convert_to_csv(df):
 
 # convert csv to df
 df_file = pd.read_csv("test_data.csv")  # ** change input file
+
 
 # Option 2: User to select origin and destination to be displayed
 origin, destination = st.columns(2)
@@ -56,7 +54,7 @@ if user_origin_country == user_destination_country:
     # st.markdown("Select your origin and destination country to view the latest Covid-19 travel advisory")
     st.header("Travelling Pre-requisites and Regulations")
 
-    # First row
+    # First row to show type of data that will be displayed
     testing, quarantine, masks = st.columns(3, gap="medium")
     with testing:
         logo('testing_logo.png')
@@ -68,7 +66,7 @@ if user_origin_country == user_destination_country:
         logo('mask_logo.png')
         st.subheader("Mask Wearing Requirements")
 
-    # second row
+    # Second row to show type of data that will be displayed
     vaccination, forms, insurance = st.columns(3, gap="medium")
     with vaccination:
         logo('vaccine_logo.png')
@@ -148,6 +146,7 @@ else:
         origin_advisory("insurance")
 
     st.markdown("---")
+
 
     # locate the rows of destination and origin countries and create one dataframe to prepare for export
     download_df = df_file.loc[[user_destination_country, user_origin_country]]
