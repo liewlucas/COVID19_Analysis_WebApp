@@ -30,16 +30,21 @@ def loadlottie(url):
         return None
     return r.json()
 
+# function to convert df into csv for exporting
+@st.cache
+def convert_to_csv(df):
+    return df.to_csv(header=True, index=True).encode('utf-8')
 
-st.set_page_config(page_title="My Webpage", page_icon=":airplane:", layout="wide")
+
+# page start
+st.set_page_config(page_title="My Webpage", page_icon=":seven:", layout="wide")
 title, animation = st.columns(2, gap="medium")
 with title:
     st.title("Current Covid-19 Situation")
-    st.markdown("We all want to enjoy our holidays, don't we? \
-    View the current Covid-19 situation in your desired country before planning your next holiday trip.")
+    st.markdown("_We all want to enjoy our holidays, don't we? \
+    View the current Covid-19 situation in your destination country before planning your next holiday trip._")
 with animation:
     animation2 = loadlottie("https://assets8.lottiefiles.com/packages/lf20_8axjdnts.json")
-
     st_lottie(animation2, height=280)
 
 
@@ -58,7 +63,7 @@ df_covid_cases.set_index("location", inplace=True)
 
 # user to select country as input
 covid_country = st.selectbox(
-    "Select a country to view it's current Covid-19 situation",
+    "Select a country to view the current Covid-19 situation there",
     options=df_country,
 )
 
@@ -71,7 +76,7 @@ with data:
     st.markdown(
         f"""
         {covid_country} has a total of {total_cases(covid_country)} cases.\n
-        As population varies across countries, it can be insightful to compare the number with \"per million people\"\
+        As population varies across countries, it can be insightful to compare the number as \"per million people\".\
         There are approxiamtely {total_cases_per_mil(covid_country)} total cases per one million people and
         {new_cases_per_mil(covid_country)} new cases per one million people.
         """
@@ -95,4 +100,3 @@ with new_case:
     )
 
 st.markdown("---")
-

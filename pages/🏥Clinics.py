@@ -25,15 +25,16 @@ def convert_to_csv(df):
 #_---- MAIN CODE ----
 
 #page config
-st.set_page_config(page_title="Pre Departure Testing", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="Pre Departure Testing", page_icon=":seven:", layout="wide")
 
 with st.container():
     col1, col2 = st.columns(2, gap="medium")
 
     with col1:
         st.title("Pre Departure ART Testing ✈️")
-        st.write("_Singapore has finally opened its borders for travelling! However there are new regulations before travelling."
-                 "Here is everything you need to know about Pre-Departure!_ ")
+        st.write("_Singapore has finally opened its borders for travelling! \
+        However there are new regulations before travelling. \
+        Here is everything you need to know about Pre-Departure!_ ")
 
     with col2:
         animation = loadlottie("https://assets8.lottiefiles.com/packages/lf20_tCIUzD.json")
@@ -46,8 +47,8 @@ with st.container():
 
     with col1:
         st.subheader("Travelling Overseas?")
-        st.markdown("Most destinations require you to produce a negative Covid-19 test result prior to entry.  \n"
-                 "Learn where you can book your pre-departure Antigen Rapid Test (ART) or Polymerase Chain Reaction (PCR) test in Singapore!")
+        st.markdown("Some destinations may require you to produce a negative Covid-19 test result prior to your entry.  \n"
+                 "Find out where you can book your pre-departure Antigen Rapid Test (ART) or Polymerase Chain Reaction (PCR) test in Singapore!")
 
     with col2:
         animation2 = loadlottie("https://assets7.lottiefiles.com/packages/lf20_ptdtk2up.json")
@@ -59,8 +60,9 @@ with st.container():
 
 with st.container():
     st.subheader("🏥🧪    List of Approved Providers for Antigen Rapid Testing for COVID-19 ")
-    st.write("""  _NOTE: The fees published in this list are as per Healthcare Instituitions’ declaration and may be subject to change by the HCI from time to time.
-         Please call the clinic to ensure that they are able to offer private-paid ART swabs._""")
+    st.write("""  _NOTE: The fees published in this list are as per Healthcare Institutions’ (HCI) declaration \
+    and may be subject to change by the HCI from time to time. Please call the clinic to ensure that they \
+    are able to offer private-paid ART swabs._""")
     st.write("###")
 
 with st.container():
