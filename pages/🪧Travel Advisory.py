@@ -30,7 +30,7 @@ def convert_to_csv(df):
 
 
 # convert csv to df
-df_file = pd.read_csv("test_data.csv")  # ** change input file
+df_file = pd.read_csv("processed_output")
 
 
 # Option 2: User to select origin and destination to be displayed
@@ -76,7 +76,7 @@ if user_origin_country == user_destination_country:
         st.subheader("Vaccination Requirements")
     with forms:
         logo('forms_logo.png')
-        st.subheader("Forms/ Visas Requirements")
+        st.subheader("Forms Requirements")
     with insurance:
         logo('insurance_logo.png')
         st.subheader("Insurance Requirements")
