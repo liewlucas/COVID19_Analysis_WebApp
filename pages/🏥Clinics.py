@@ -16,7 +16,9 @@ def loadlottie(url):
 
     return r.json()
 
-
+@st.cache
+def convert_to_csv(df):
+    return df.to_csv(header=True, index=True).encode('utf-8')
 
 
 
@@ -31,7 +33,7 @@ with st.container():
     with col1:
         st.title("Pre Departure ART Testing ✈️")
         st.write("_Singapore has finally opened its borders for travelling! However there are new regulations before travelling."
-                 "Here is everything you need to know!_ ")
+                 "Here is everything you need to know about Pre-Departure!_ ")
 
     with col2:
         animation = loadlottie("https://assets8.lottiefiles.com/packages/lf20_tCIUzD.json")
@@ -84,4 +86,16 @@ with st.container():
     mask = np.column_stack([df[col].str.contains(searchtext, na=False) for col in df])
     df.loc[mask.any(axis=1)]
 
+
+    #download as csv based on search
+    if filterbox:
+        st.subheader("Would like a copy for yourself?")
+        csvdownload = convert_to_csv(df.loc[mask.any(axis=1)])
+        st.download_button(
+            label="Download current list of Clinics as .csv",
+            data=csvdownload,
+            file_name=f"{filterbox} Testing Centres.csv",
+            mime="text/csv",
+            key='download-csv'
+        )
 
