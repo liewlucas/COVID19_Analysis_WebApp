@@ -30,7 +30,7 @@ def convert_to_csv(df):
 
 
 # convert csv to df
-df_file = pd.read_csv("processed_output")
+df_file = pd.read_csv("processed_output.csv")
 
 
 # Option 2: User to select origin and destination to be displayed
