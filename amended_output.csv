@@ -1,0 +1,1135 @@
+,country,headers,info
+0,Entry into Laos,Quarantine,Not required
+1,Entry into Laos,Vaccinations,Travelers who carry proof they have completed a full vaccination regimen at least 14 days prior to their intended departure using a COVID-19 vaccine recognized by Lao authorities are exempt from pre-departure testing requirements.
+2,Entry into Laos,COVID-19 Testing,Unvaccinated travelers must carry proof of a negative result for COVID-19 issued no more than 48 hours prior to departure using a Rapid Antigen Test.
+3,Entry into Laos,Forms and Visas,All travelers must register online using the Lao Green Pass system prior to departure and obtain a QR Code necessary when boarding transportation bound for Laos. All travelers must install the LaoKYC mobile application.
+4,Entry into Laos,Travel/Medical Insurance,Not required
+5,Entry into Laos,Masks,Masks are required on public transportation and in most public venues.
+6,Entry into Portugal,Quarantine,Not required
+7,Entry into Portugal,Vaccinations,Travelers who carry proof they have completed a full vaccination regimen using a COVID-19 vaccine approved for emergency use by the World Health Organization (WHO) are exempt from pre-departure testing requirements.
+8,Entry into Portugal,COVID-19 Testing,"Unvaccinated travelers must carry proof of a negative result for COVID-19 issued no more than 72 hours prior to departure using a nucleic acid amplification test (NAAT), or no more than 24 hours prior to departure using a laboratory performed rapid antigen test."
+9,Entry into Portugal,Forms and Visas,Not required
+10,Entry into Portugal,Travel/Medical Insurance,Not required
+11,Entry into Portugal,Masks,Masks are required on public transportation and in some public venues.
+12,Entry into United Arab Emirates,Quarantine,Not required
+13,Entry into United Arab Emirates,Vaccinations,Not required
+14,Entry into United Arab Emirates,COVID-19 Testing,Negative PCR test tested within 48 hours prior to departure is required
+15,Entry into United Arab Emirates,Forms and Visas,Required
+16,Entry into United Arab Emirates,Travel/Medical Insurance,Required unless arriving at Abu Dhabi International Airport (AUH)
+17,Entry into United Arab Emirates,Masks,All passengers must wear a mask in the airport and during their flight
+18,Entry into Hungary,Quarantine,Not required
+19,Entry into Hungary,Vaccinations,Not required
+20,Entry into Hungary,COVID-19 Testing,Not Required
+21,Entry into Hungary,Forms and Visas,Not required
+22,Entry into Hungary,Travel/Medical Insurance,Not required
+23,Entry into Hungary,Masks,Not required
+24,Entry into Fiji,Quarantine,Not required
+25,Entry into Fiji,Vaccinations,Required
+26,Entry into Fiji,COVID-19 Testing,Not required
+27,Entry into Fiji,Forms and Visas,Not required
+28,Entry into Fiji,Travel/Medical Insurance,Required
+29,Entry into Fiji,Masks,Not required
+30,Entry into Iceland,Quarantine,Not required
+31,Entry into Iceland,Vaccinations,Not required
+32,Entry into Iceland,COVID-19 Testing,Not Required
+33,Entry into Iceland,Forms and Visas,Not required
+34,Entry into Iceland,Travel/Medical Insurance,Not required
+35,Entry into Iceland,Masks,Not required
+36,Entry into Sweden,Quarantine,Not required
+37,Entry into Sweden,Vaccinations,Not required
+38,Entry into Sweden,COVID-19 Testing,Not Required
+39,Entry into Sweden,Forms and Visas,Not required
+40,Entry into Sweden,Travel/Medical Insurance,Not required
+41,Entry into Sweden,Masks,Not required
+42,Entry into Norway,Quarantine,Not required
+43,Entry into Norway,Vaccinations,Not required
+44,Entry into Norway,COVID-19 Testing,Not Required
+45,Entry into Norway,Forms and Visas,Not required
+46,Entry into Norway,Travel/Medical Insurance,Not required
+47,Entry into Norway,Masks,Not required
+48,Entry into Cuba,Quarantine,Not required
+49,Entry into Brazil,Quarantine,Unvaccinated travelers must undergo a 14-day quarantine. Travelers can end quarantine early by undergoing testing for COVID-19.
+50,Entry into Brazil,Vaccinations,"Travelers must carry proof they have completed a full vaccination regimen using a COVID-19 vaccine approved for emergency use by the World Health Organization (WHO), or must undergo quarantine."
+51,Entry into Brazil,COVID-19 Testing,"All travelers must have proof of a negative reverse transcription polymerase chain reaction (RT-PCR) test result issued no more than 72 hours prior to departure, or an antigen test result issued no more than 24 hours prior to departure."
+52,Entry into Brazil,Forms and Visas,All travelers must submit a Traveler's Health Declaration (DSV) form no more than 24 hours prior to departure.
+53,Entry into Mexico,Quarantine,Not required
+54,Entry into Mexico,Vaccinations,Not required
+55,Entry into Mexico,COVID-19 Testing,Not required
+56,Entry into Mexico,Forms and Visas,Not required
+57,Entry into Mexico,Travel/Medical Insurance,Not required
+58,Entry into Mexico,Masks,Mask is required in some regions and areas of the country
+59,Entry into Cuba,Vaccinations,Not required
+60,Entry into Cuba,COVID-19 Testing,Not required
+61,Entry into Cuba,Forms and Visas,Required
+62,Entry into Cuba,Travel/Medical Insurance,Not required
+63,Entry into Cuba,Masks,Mask is required at the airport
+64,Entry into Brazil,Travel/Medical Insurance,Not required
+65,Entry into Brazil,Masks,Not required
+66,Entry into Argentina,Quarantine,
+67,Entry into Argentina,Vaccinations,
+68,Entry into Argentina,COVID-19 Testing,
+69,Entry into Argentina,Forms and Visas,
+70,Entry into Argentina,Travel/Medical Insurance,
+71,Entry into Argentina,Masks,
+72,Entry into Tunisia,Quarantine,Not required
+73,Entry into Tunisia,Vaccinations,Not required
+74,Entry into Tunisia,COVID-19 Testing,Negative RT-PCR test obtained within 72 hours prior to departure or a negative rapid antigen test obtained within 24 hours prior to departure required
+75,Entry into Tunisia,Forms and Visas,Not required
+76,Entry into Tunisia,Travel/Medical Insurance,Not required
+77,Entry into Tunisia,Masks,"Mask is required in all public indoor, and public transport"
+78,Entry into Chile,Quarantine,May be required if a positive test result is received on arrival
+79,Entry into Chile,Vaccinations,Not required
+80,Entry into Chile,COVID-19 Testing,Passengers aged 18 years and older must hold a negative PCR test result obtained within 48 hours prior to departure.
+81,Entry into Chile,Forms and Visas,Required
+82,Entry into Chile,Travel/Medical Insurance,Not required
+83,Entry into Chile,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+84,Entry into Peru,Quarantine,May be required if a positive test result is received on arrival
+85,Entry into Peru,Vaccinations,Not required
+86,Entry into Peru,COVID-19 Testing,A negative PCR test result issued within 48 hours is required 
+87,Entry into Peru,Forms and Visas,Required
+88,Entry into Peru,Travel/Medical Insurance,Not required
+89,Entry into Peru,Masks,"Double masks must be worn by all passengers, plastic shields are recommended"
+90,Entry into Cyprus,Quarantine,Not required
+91,Entry into Cyprus,Vaccinations,Not required
+92,Entry into Cyprus,COVID-19 Testing,Not Required
+93,Entry into Cyprus,Forms and Visas,Not required
+94,Entry into Cyprus,Travel/Medical Insurance,Not required
+95,Entry into Cyprus,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+96,Entry into United States,Quarantine,Not required
+97,Entry into United States,Vaccinations,Required
+98,Entry into United States,COVID-19 Testing,Not required
+99,Entry into United States,Forms and Visas,Not required
+100,Entry into United States,Travel/Medical Insurance,Not required
+101,Entry into United States,Masks,"Recommended in all public indoor, public transport and outdoor areas"
+102,Entry into Pakistan,Quarantine,Not required
+103,Entry into Pakistan,Vaccinations,Required
+104,Entry into Pakistan,COVID-19 Testing,Negative PCR test obtained within 72 hours prior to departure required
+105,Entry into Pakistan,Forms and Visas,Required
+106,Entry into Pakistan,Travel/Medical Insurance,Not required
+107,Entry into Pakistan,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+108,Entry into Slovenia,Quarantine,Not required
+109,Entry into Slovenia,Vaccinations,Not required
+110,Entry into Slovenia,COVID-19 Testing,Not Required
+111,Entry into Slovenia,Forms and Visas,Not required
+112,Entry into Slovenia,Travel/Medical Insurance,Not required
+113,Entry into Slovenia,Masks,Not required
+114,Entry into Slovakia,Quarantine,
+115,Entry into Slovakia,Vaccinations,
+116,Entry into Slovakia,COVID-19 Testing,
+117,Entry into Slovakia,Forms and Visas,
+118,Entry into Slovakia,Travel/Medical Insurance,
+119,Entry into Slovakia,Masks,
+120,Entry into Romania,Quarantine,Not required
+121,Entry into Romania,Vaccinations,Not required
+122,Entry into Romania,COVID-19 Testing,Not Required
+123,Entry into Romania,Forms and Visas,Not required
+124,Entry into Romania,Travel/Medical Insurance,Not required
+125,Entry into Romania,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+126,Entry into Poland,Quarantine,Not required
+127,Entry into Poland,Vaccinations,Not required
+128,Entry into Poland,COVID-19 Testing,Not Required
+129,Entry into Poland,Forms and Visas,Not required
+130,Entry into Poland,Travel/Medical Insurance,Not required
+131,Entry into Poland,Masks,Not required
+132,Entry into Ecuador,Quarantine,Quarantine may be required if a positive result is received on arrival
+133,Entry into Ecuador,Vaccinations,Not required
+134,Entry into Ecuador,COVID-19 Testing,Negative RT-PCR test obtained within 72 hours prior to departure required
+135,Entry into Ecuador,Forms and Visas,Required
+136,Entry into Ecuador,Travel/Medical Insurance,Not required
+137,Entry into Ecuador,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+138,Entry into Saudi Arabia,Quarantine,
+139,Entry into Saudi Arabia,Vaccinations,
+140,Entry into Saudi Arabia,COVID-19 Testing,
+141,Entry into Saudi Arabia,Forms and Visas,
+142,Entry into Saudi Arabia,Travel/Medical Insurance,
+143,Entry into Saudi Arabia,Masks,
+144,Entry into Iran,Quarantine,Not required
+145,Entry into Iran,Vaccinations,Not required
+146,Entry into Iran,COVID-19 Testing,A negative PCR test certificate issued within 72 hours prior to departure required
+147,Entry into Iran,Forms and Visas,Not required
+148,Entry into Iran,Travel/Medical Insurance,Not required
+149,Entry into Iran,Masks,Not required
+150,Entry into Ethiopia,Quarantine,Not required
+151,Entry into Ethiopia,Vaccinations,Not required
+152,Entry into Ethiopia,COVID-19 Testing,Negative PCR test within 72 hours prior to departure or negative antigen test within 24 hours prior to arrival is required
+153,Entry into Ethiopia,Forms and Visas,Not required
+154,Entry into Ethiopia,Travel/Medical Insurance,Not required
+155,Entry into Ethiopia,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+156,Entry into Lithuania,Quarantine,Not required
+157,Entry into Lithuania,Vaccinations,Not required
+158,Entry into Lithuania,COVID-19 Testing,Not Required
+159,Entry into Lithuania,Forms and Visas,Not required
+160,Entry into Lithuania,Travel/Medical Insurance,Not required
+161,Entry into Lithuania,Masks,Mask is required on public transport and in certain indoor areas
+162,Entry into Latvia,Quarantine,Not required
+163,Entry into Latvia,Vaccinations,Not required
+164,Entry into Latvia,COVID-19 Testing,Not Required
+165,Entry into Latvia,Forms and Visas,Not required
+166,Entry into Latvia,Travel/Medical Insurance,Not required
+167,Entry into Latvia,Masks,Mask is required on public transport and in certain indoor areas
+168,Entry into Croatia,Quarantine,Not required
+169,Entry into Croatia,Vaccinations,Not required
+170,Entry into Croatia,COVID-19 Testing,Not Required
+171,Entry into Croatia,Forms and Visas,Not required
+172,Entry into Croatia,Travel/Medical Insurance,Not required
+173,Entry into Croatia,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+174,Entry into Kuwait,Quarantine,Not required
+175,Entry into Kuwait,Vaccinations,Not required
+176,Entry into Kuwait,COVID-19 Testing,Not Required
+177,Entry into Kuwait,Forms and Visas,Not required
+178,Entry into Kuwait,Travel/Medical Insurance,Not required
+179,Entry into Kuwait,Masks,Not required
+180,Entry into Hong Kong,Quarantine,Not required
+181,Entry into Hong Kong,Vaccinations,All travelers must carry a recognised vaccination record showing they have completed a full vaccination regimen using a COVID-19 vaccine  recognized by local authorities.
+182,Entry into Hong Kong,COVID-19 Testing,All travelers permitted to enter must carry proof of a negative result for COVID-19 issued no more than 48 hours prior to departure using a PCR-based nucleic acid test.
+183,Entry into Hong Kong,Forms and Visas,All travelers must submit a Health &amp; Quarantine Information Declaration form prior to departure.
+184,Entry into Hong Kong,Travel/Medical Insurance,Not required
+185,Entry into Hong Kong,Masks,Masks are required during travel and in most public venues.
+186,Entry into Paraguay,Quarantine,Not required
+187,Entry into Paraguay,Vaccinations,Not required
+188,Entry into Paraguay,COVID-19 Testing,Negative LAMP/NAAT/RT-PCR test obtained within 72 hours prior to departure required
+189,Entry into Paraguay,Forms and Visas,Not required
+190,Entry into Paraguay,Travel/Medical Insurance,Not required
+191,Entry into Paraguay,Masks,"Mask is required in all public indoor, public transport and some outdoor areas"
+192,Entry into Bulgaria,Quarantine,Not required
+193,Entry into Bulgaria,Vaccinations,Not required
+194,Entry into Bulgaria,COVID-19 Testing,Not Required
+195,Entry into Bulgaria,Forms and Visas,Not required
+196,Entry into Bulgaria,Travel/Medical Insurance,Not required
+197,Entry into Bulgaria,Masks,Not required
+198,Entry into Monaco,Quarantine,
+199,Entry into Monaco,Vaccinations,
+200,Entry into Monaco,COVID-19 Testing,
+201,Entry into Monaco,Forms and Visas,
+202,Entry into Monaco,Travel/Medical Insurance,
+203,Entry into Libya,Quarantine,10 days required. Quarantine may end after a negative day 5 rapid or RT-PCR test.
+204,Entry into Libya,Vaccinations,Not required
+205,Entry into Libya,COVID-19 Testing,A negative PCR test obtained within 72 hours prior to arrival is required.
+206,Entry into Libya,Forms and Visas,Not required
+207,Entry into Libya,Travel/Medical Insurance,Not required
+208,Entry into Libya,Masks,Not required
+209,Entry into Monaco,Masks,
+210,Entry into Morocco,Quarantine,
+211,Entry into Morocco,Vaccinations,
+212,Entry into Morocco,COVID-19 Testing,
+213,Entry into Morocco,Forms and Visas,
+214,Entry into Morocco,Travel/Medical Insurance,
+215,Entry into Morocco,Masks,
+216,Entry into Panama,Quarantine,
+217,Entry into Panama,Vaccinations,
+218,Entry into Panama,COVID-19 Testing,
+219,Entry into Panama,Forms and Visas,
+220,Entry into Panama,Travel/Medical Insurance,
+221,Entry into Panama,Masks,
+222,Entry into Costa Rica,Quarantine,Not required
+223,Entry into Costa Rica,Vaccinations,Not required
+224,Entry into Costa Rica,COVID-19 Testing,Not Required
+225,Entry into Costa Rica,Forms and Visas,Not required
+226,Entry into Costa Rica,Travel/Medical Insurance,Not required
+227,Entry into Costa Rica,Masks,Not required
+228,Entry into Belarus,Quarantine,
+229,Entry into Belarus,Vaccinations,
+230,Entry into Belarus,COVID-19 Testing,
+231,Entry into Belarus,Forms and Visas,
+232,Entry into Belarus,Travel/Medical Insurance,
+233,Entry into Belarus,Masks,
+234,Entry into Colombia,Quarantine,Not required
+235,Entry into Colombia,Vaccinations,Not required
+236,Entry into Colombia,COVID-19 Testing,A negative PCR test result tested within 72 hours prior to departure or a negative antigen test result tested within 48 hours prior to departure required
+237,Entry into Colombia,Forms and Visas,Required
+238,Entry into Colombia,Travel/Medical Insurance,Not required
+239,Entry into Colombia,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+240,Entry into Qatar,Quarantine,May be required if a positive test result is received on arrival
+241,Entry into Qatar,Vaccinations,Not required
+242,Entry into Qatar,COVID-19 Testing,"Passengers must either hold a negative PCR test result obtained within 48 hours prior to departure, or a Rapid Antigen Test (RAT) obtained within 24 hours prior to departure"
+243,Entry into Qatar,Forms and Visas,Required
+244,Entry into Qatar,Travel/Medical Insurance,Not required
+245,Entry into Qatar,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+246,Entry into Macau,Quarantine,All travelers must undergo either a 21-day or a 28-day quarantine and 7 days of additional health self-management.
+247,Entry into Macau,Vaccinations,All travelers 12 years of age or older must have proof they have completed a full vaccination regimen at least 14 days and no more than 7 months prior to departure using a COVID-19 vaccine recognized by local authorities.
+248,Entry into Macau,COVID-19 Testing,All travelers must carry proof of a negative nucleic acid test result for COVID-19 issued no more than 48 hours prior to departure.
+249,Entry into Macau,Forms and Visas,All travelers must submit a health declaration form and obtain a QR code for use during arrival. Travelers previously infected with COVID-19 must carry a certificate of recovery proving that at least two months have passed since their initial positive test result.
+250,Entry into Macau,Travel/Medical Insurance,Not required
+251,Entry into Macau,Masks,Masks are required during travel and in most public venues.
+252,Entry into Dominican Republic,Quarantine,Not required
+253,Entry into Dominican Republic,Vaccinations,Not required
+254,Entry into Dominican Republic,COVID-19 Testing,Not required
+255,Entry into Dominican Republic,Forms and Visas,Not required
+256,Entry into Dominican Republic,Travel/Medical Insurance,Not required
+257,Entry into Dominican Republic,Masks,Not required
+258,Entry into Kazakhstan,Quarantine,Not required
+259,Entry into Kazakhstan,Vaccinations,Not required
+260,Entry into Kazakhstan,COVID-19 Testing,Not Required
+261,Entry into Kazakhstan,Forms and Visas,Not required
+262,Entry into Kazakhstan,Travel/Medical Insurance,Not required
+263,Entry into Kazakhstan,Masks,Mask is required in certain public indoor areas
+264,Entry into Lebanon,Quarantine,
+265,Entry into Lebanon,Vaccinations,
+266,Entry into Lebanon,COVID-19 Testing,
+267,Entry into Lebanon,Forms and Visas,
+268,Entry into Lebanon,Travel/Medical Insurance,
+269,Entry into Lebanon,Masks,
+270,Entry into Oman,Quarantine,Not required
+271,Entry into Oman,Vaccinations,Not required
+272,Entry into Oman,COVID-19 Testing,Not Required
+273,Entry into Oman,Forms and Visas,Not required
+274,Entry into Oman,Travel/Medical Insurance,Not required
+275,Entry into Oman,Masks,"Required
+"
+276,Entry into Republic of the Congo,Quarantine,Not required
+277,Entry into Republic of the Congo,Vaccinations,Not required
+278,Entry into Republic of the Congo,COVID-19 Testing,Negative PCR test certificate obtained within 48 hours prior to departure required
+279,Entry into Republic of the Congo,Forms and Visas,Not required
+280,Entry into Republic of the Congo,Travel/Medical Insurance,Not required
+281,Entry into Republic of the Congo,Masks,"Required
+"
+282,Entry into Sint Maarten,Quarantine,Not required
+283,Entry into Sint Maarten,Vaccinations,Not required
+284,Entry into Sint Maarten,COVID-19 Testing,A negative RT-PCR test result obtained within 48 hours prior to departure or a negative antigen test obtained within 24 hours prior to departure required
+285,Entry into Sint Maarten,Forms and Visas,Required
+286,Entry into Sint Maarten,Travel/Medical Insurance,Required
+287,Entry into Sint Maarten,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+288,Entry into Togo,Quarantine,Not required
+289,Entry into Togo,Vaccinations,Not required
+290,Entry into Togo,COVID-19 Testing,Negative PCR test within 5 days prior to departure is required
+291,Entry into Togo,Forms and Visas,Required
+292,Entry into Togo,Travel/Medical Insurance,"Passengers are advised to hold medical, travel or international health insurance"
+293,Entry into Togo,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+294,Entry into Namibia,Quarantine,
+295,Entry into Namibia,Vaccinations,
+296,Entry into Namibia,COVID-19 Testing,
+297,Entry into Namibia,Forms and Visas,
+298,Entry into Namibia,Travel/Medical Insurance,
+299,Entry into Namibia,Masks,
+300,Entry into Vanuatu,Quarantine,Not required
+301,Entry into Vanuatu,Vaccinations,Passengers are advised to hold proof that they are fully vaccinated against Covid-19
+302,Entry into Vanuatu,COVID-19 Testing,"Negative PCR test obtained between 24 and 72 hours prior to departure, or negative RAT obtained within 24 hours, or positive RAT or PCR obtained between 8 days and 2 months required"
+303,Entry into Vanuatu,Forms and Visas,Not required
+304,Entry into Vanuatu,Travel/Medical Insurance,Not required
+305,Entry into Vanuatu,Masks,Not required 
+306,Entry into Senegal,Quarantine,Not required
+307,Entry into Senegal,Vaccinations,Not required
+308,Entry into Senegal,COVID-19 Testing,Negative PCR test within 72 hours prior to departure is required
+309,Entry into Senegal,Forms and Visas,Not required
+310,Entry into Senegal,Travel/Medical Insurance,Not required
+311,Entry into Senegal,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+312,Entry into Seychelles,Quarantine,Not required
+313,Entry into Seychelles,Vaccinations,Not required
+314,Entry into Seychelles,COVID-19 Testing,Negative PCR test tested within 72 hours prior to departure required
+315,Entry into Seychelles,Forms and Visas,Required
+316,Entry into Seychelles,Travel/Medical Insurance,Required
+317,Entry into Seychelles,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+318,Entry into Democratic Republic of the Congo,Quarantine,Not required
+319,Entry into Democratic Republic of the Congo,Vaccinations,Not required
+320,Entry into Democratic Republic of the Congo,COVID-19 Testing,Negative PCR test within 72 hours prior to arrival required
+321,Entry into Democratic Republic of the Congo,Forms and Visas,Required
+322,Entry into Democratic Republic of the Congo,Travel/Medical Insurance,Not required
+323,Entry into Democratic Republic of the Congo,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+324,Entry into Zimbabwe,Quarantine,Not required
+325,Entry into Zimbabwe,Vaccinations,Not required
+326,Entry into Zimbabwe,COVID-19 Testing,Negative RT-PCR digital test certificate obtained within 48 hours prior to departure required
+327,Entry into Zimbabwe,Forms and Visas,Required
+328,Entry into Zimbabwe,Travel/Medical Insurance,Not required
+329,Entry into Zimbabwe,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+330,Entry into Zambia,Quarantine,Not required
+331,Entry into Zambia,Vaccinations,Not required
+332,Entry into Zambia,COVID-19 Testing,A negative PCR test result obtained within 72 hours prior to departure required
+333,Entry into Zambia,Forms and Visas,Required
+334,Entry into Zambia,Travel/Medical Insurance,Not required
+335,Entry into Zambia,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+336,Entry into Barbados,Quarantine,
+337,Entry into Barbados,Vaccinations,
+338,Entry into Barbados,COVID-19 Testing,
+339,Entry into Barbados,Forms and Visas,
+340,Entry into Barbados,Travel/Medical Insurance,
+341,Entry into Barbados,Masks,
+342,Entry into Tanzania,Quarantine,May be required if a positive test result is received on arrival
+343,Entry into Tanzania,Vaccinations,Not required
+344,Entry into Tanzania,COVID-19 Testing,Negative PCR test obtained within 72 hours prior to arrival is required
+345,Entry into Tanzania,Forms and Visas,Not required
+346,Entry into Tanzania,Travel/Medical Insurance,Not required
+347,Entry into Tanzania,Masks,Not required
+348,Entry into Maldives,Quarantine,Not required
+349,Entry into Maldives,Vaccinations,Not required
+350,Entry into Maldives,COVID-19 Testing,Not required
+351,Entry into Maldives,Forms and Visas,Required
+352,Entry into Maldives,Travel/Medical Insurance,Not required
+353,Entry into Maldives,Masks,Not required
+354,Entry into Algeria,Quarantine,Not required
+355,Entry into Algeria,Vaccinations,Not required
+356,Entry into Algeria,COVID-19 Testing,Negative PCR test obtained within 72 hours prior to departure is required
+357,Entry into Algeria,Forms and Visas,Not required
+358,Entry into Algeria,Travel/Medical Insurance,Not required
+359,Entry into Algeria,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+360,Entry into Angola,Quarantine,Quarantine in a government medical facility required or if asymptomatic quarantine at home required
+361,Entry into Angola,Vaccinations,Required
+362,Entry into Angola,COVID-19 Testing,Negative PCR test tested within 72 hours prior to departure and antigen rapid test tested within 24 hours prior to departure on arrival required
+363,Entry into Angola,Forms and Visas,Required
+364,Entry into Angola,Travel/Medical Insurance,Not required
+365,Entry into Angola,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+366,Entry into Nicaragua,Quarantine,Not required
+367,Entry into Nicaragua,Vaccinations,Not required
+368,Entry into Nicaragua,COVID-19 Testing,"Negative RT-PCR test result obtained within 72 hours prior to arrival or within 92 hours prior to arrival for passengers travelling from Africa, Asia, or Oceania required"
+369,Entry into Nicaragua,Forms and Visas,Required
+370,Entry into Nicaragua,Travel/Medical Insurance,Not required
+371,Entry into Nicaragua,Masks,Mask is required in public indoor areas
+372,Entry into Benin,Quarantine,Not required
+373,Entry into Benin,Vaccinations,Not required
+374,Entry into Benin,COVID-19 Testing,Not Required
+375,Entry into Benin,Forms and Visas,Not required
+376,Entry into Benin,Travel/Medical Insurance,Not required
+377,Entry into Benin,Masks,Mask is required on public transport
+378,Entry into Gambia,Quarantine,Not required
+379,Entry into Gambia,Vaccinations,Not required
+380,Entry into Gambia,COVID-19 Testing,Negative PCR test within 72 hours prior to arrival is required
+381,Entry into Gambia,Forms and Visas,Not required
+382,Entry into Gambia,Travel/Medical Insurance,Not required
+383,Entry into Gambia,Masks,Not required
+384,Entry into Antigua and Barbuda,Quarantine,May be required if displaying symptoms
+385,Entry into Antigua and Barbuda,Vaccinations,Not required 
+386,Entry into Antigua and Barbuda,COVID-19 Testing,Not required 
+387,Entry into Antigua and Barbuda,Forms and Visas,Required
+388,Entry into Antigua and Barbuda,Travel/Medical Insurance,Not required 
+389,Entry into Antigua and Barbuda,Masks,Not required
+390,Entry into Guinea-bissau,Quarantine,Not required
+391,Entry into Guinea-bissau,Vaccinations,Not required
+392,Entry into Guinea-bissau,COVID-19 Testing,Negative PCR test tested within 72 hours prior to departure is required
+393,Entry into Guinea-bissau,Forms and Visas,Required
+394,Entry into Guinea-bissau,Travel/Medical Insurance,Not required
+395,Entry into Guinea-bissau,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+396,Entry into Curacao,Quarantine,
+397,Entry into Curacao,Vaccinations,
+398,Entry into Curacao,COVID-19 Testing,
+399,Entry into Curacao,Forms and Visas,
+400,Entry into Curacao,Travel/Medical Insurance,
+401,Entry into Curacao,Masks,
+402,Entry into Ghana,Quarantine,Not required
+403,Entry into Ghana,Vaccinations,Required
+404,Entry into Ghana,COVID-19 Testing,Negative RT-PCR digital test certificate tested within 48 hours prior to departure required
+405,Entry into Ghana,Forms and Visas,Required
+406,Entry into Ghana,Travel/Medical Insurance,Not required
+407,Entry into Ghana,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+408,Entry into Aruba,Quarantine,Not required
+409,Entry into Aruba,Vaccinations,Not required
+410,Entry into Aruba,COVID-19 Testing,Not required
+411,Entry into Aruba,Forms and Visas,Required
+412,Entry into Aruba,Travel/Medical Insurance,"Advised, not required"
+413,Entry into Aruba,Masks,Not required
+414,Entry into Botswana,Quarantine,May be required if a positive test result is received on arrival
+415,Entry into Botswana,Vaccinations,Not required
+416,Entry into Botswana,COVID-19 Testing,Negative PCR test obtained within 72 hours prior to arrival required
+417,Entry into Botswana,Forms and Visas,Not required
+418,Entry into Botswana,Travel/Medical Insurance,Not required
+419,Entry into Botswana,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+420,Entry into Rwanda,Quarantine,Not required
+421,Entry into Rwanda,Vaccinations,Not required
+422,Entry into Rwanda,COVID-19 Testing,Not required
+423,Entry into Rwanda,Forms and Visas,Not required
+424,Entry into Rwanda,Travel/Medical Insurance,Passengers are advised to hold international travel insurance
+425,Entry into Rwanda,Masks,"Required
+"
+426,Entry into Guinea,Quarantine,Not required
+427,Entry into Guinea,Vaccinations,Not required
+428,Entry into Guinea,COVID-19 Testing,Negative RT-PCR test certificate obtained within 72 hours prior to departure required
+429,Entry into Guinea,Forms and Visas,Not required
+430,Entry into Guinea,Travel/Medical Insurance,Not required
+431,Entry into Guinea,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+432,Entry into Saint Kitts and Nevis,Quarantine,
+433,Entry into Saint Kitts and Nevis,Vaccinations,
+434,Entry into Saint Kitts and Nevis,COVID-19 Testing,
+435,Entry into Saint Kitts and Nevis,Forms and Visas,
+436,Entry into Saint Kitts and Nevis,Travel/Medical Insurance,
+437,Entry into Saint Kitts and Nevis,Masks,
+438,Entry into Sao Tome and Principe,Quarantine,Not required 
+439,Entry into Sao Tome and Principe,Vaccinations,Not required 
+440,Entry into Sao Tome and Principe,COVID-19 Testing,A negative antigen test obtained within 48 hours prior to departure or a PCR test obtained within 72 hours prior to departure required
+441,Entry into Sao Tome and Principe,Forms and Visas,Required
+442,Entry into Sao Tome and Principe,Travel/Medical Insurance,Not required 
+443,Entry into Sao Tome and Principe,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+444,Entry into Bahamas,Quarantine,Not required
+445,Entry into Bahamas,Vaccinations,Not required 
+446,Entry into Bahamas,COVID-19 Testing,Negative RT-PCR or rapid antigen test obtained within 3 days prior to departure required
+447,Entry into Bahamas,Forms and Visas,Required
+448,Entry into Bahamas,Travel/Medical Insurance,Not required 
+449,Entry into Bahamas,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+450,Entry into Grenada,Quarantine,Not required
+451,Entry into Grenada,Vaccinations,Not required
+452,Entry into Grenada,COVID-19 Testing,Not Required
+453,Entry into Grenada,Forms and Visas,Not required
+454,Entry into Grenada,Travel/Medical Insurance,Not required
+455,Entry into Grenada,Masks,Not required
+456,Entry into Burkina Faso,Quarantine,Not required
+457,Entry into Burkina Faso,Vaccinations,Not required
+458,Entry into Burkina Faso,COVID-19 Testing,Negative PCR test tested within 5 days prior to departure is required for unvaccinated passengers. Passengers not holding a negative PCR test certificate will be subject test upon arrival at their own cost.
+459,Entry into Burkina Faso,Forms and Visas,Not required
+460,Entry into Burkina Faso,Travel/Medical Insurance,Not required
+461,Entry into Burkina Faso,Masks,Mask is required in all public indoor and outdoor areas
+462,Entry into Bosnia and Herzegovina,Quarantine,Not required
+463,Entry into Bosnia and Herzegovina,Vaccinations,Not required
+464,Entry into Bosnia and Herzegovina,COVID-19 Testing,Not Required
+465,Entry into Bosnia and Herzegovina,Forms and Visas,Not required
+466,Entry into Bosnia and Herzegovina,Travel/Medical Insurance,Not required
+467,Entry into Bosnia and Herzegovina,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+468,Entry into Liberia,Quarantine,Not required
+469,Entry into Liberia,Vaccinations,Required
+470,Entry into Liberia,COVID-19 Testing,Not required
+471,Entry into Liberia,Forms and Visas,Not required
+472,Entry into Liberia,Travel/Medical Insurance,Not required
+473,Entry into Liberia,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+474,Entry into Lesotho,Quarantine,
+475,Entry into Lesotho,Vaccinations,
+476,Entry into Lesotho,COVID-19 Testing,
+477,Entry into Lesotho,Forms and Visas,
+478,Entry into Lesotho,Travel/Medical Insurance,
+479,Entry into Lesotho,Masks,
+480,Entry into Saint Lucia,Quarantine,Not required
+481,Entry into Saint Lucia,Vaccinations,Not required
+482,Entry into Saint Lucia,COVID-19 Testing,Not required
+483,Entry into Saint Lucia,Forms and Visas,Required
+484,Entry into Saint Lucia,Travel/Medical Insurance,Not required
+485,Entry into Saint Lucia,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+486,Entry into Burundi,Quarantine,24 hours in government provided accommodation required
+487,Entry into Burundi,Vaccinations,Not required
+488,Entry into Burundi,COVID-19 Testing,Negative PCR test tested within 48 hours prior to departure and test on arrival required
+489,Entry into Burundi,Forms and Visas,Not required
+490,Entry into Burundi,Travel/Medical Insurance,Not required
+491,Entry into Burundi,Masks,Not required
+492,Entry into Cameroon,Quarantine,May be required if passengers test positive for Covid-19 on arrival
+493,Entry into Cameroon,Vaccinations,Not required
+494,Entry into Cameroon,COVID-19 Testing,Negative PCR test obtained within 3 days between the date of sample collection and the date of departure
+495,Entry into Cameroon,Forms and Visas,Not required
+496,Entry into Cameroon,Travel/Medical Insurance,Not required
+497,Entry into Cameroon,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+498,Entry into Saint Vincent and the Grenadines,Quarantine,
+499,Entry into Saint Vincent and the Grenadines,Vaccinations,
+500,Entry into Saint Vincent and the Grenadines,COVID-19 Testing,
+501,Entry into Saint Vincent and the Grenadines,Forms and Visas,
+502,Entry into Saint Vincent and the Grenadines,Travel/Medical Insurance,
+503,Entry into Saint Vincent and the Grenadines,Masks,
+504,Entry into Mali,Quarantine,Not required
+505,Entry into Mali,Vaccinations,Not required
+506,Entry into Mali,COVID-19 Testing,Negative PCR test result tested within 72 hours prior to arrival is required
+507,Entry into Mali,Forms and Visas,Not required
+508,Entry into Mali,Travel/Medical Insurance,Not required
+509,Entry into Mali,Masks,Not required
+510,Entry into Cape Verde,Quarantine,May be required if a positive test result is received on arrival
+511,Entry into Cape Verde,Vaccinations,Not required
+512,Entry into Cape Verde,COVID-19 Testing,Negative PCR test certificate obtained within 72 hours prior to departure or a negative antigen (Ag-RDT) test certificate obtained within 48 hours prior to departure required
+513,Entry into Cape Verde,Forms and Visas,Required
+514,Entry into Cape Verde,Travel/Medical Insurance,Not required
+515,Entry into Cape Verde,Masks,Not required
+516,Entry into Malawi,Quarantine,Not required
+517,Entry into Malawi,Vaccinations,Not required
+518,Entry into Malawi,COVID-19 Testing,Negative RT-PCR digital test certificate obtained within 72 hours prior to arrival required
+519,Entry into Malawi,Forms and Visas,Not required
+520,Entry into Malawi,Travel/Medical Insurance,Not required
+521,Entry into Malawi,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+522,Entry into Jamaica,Quarantine,Not required
+523,Entry into Jamaica,Vaccinations,Not required
+524,Entry into Jamaica,COVID-19 Testing,Not Required
+525,Entry into Jamaica,Forms and Visas,Not required
+526,Entry into Jamaica,Travel/Medical Insurance,Not required
+527,Entry into Jamaica,Masks,Not required
+528,Entry into Haiti,Quarantine,Not required
+529,Entry into Haiti,Vaccinations,Not required
+530,Entry into Haiti,COVID-19 Testing,Negative PCR or rapid antigen test tested within 72 hours prior to departure required
+531,Entry into Haiti,Forms and Visas,Not required
+532,Entry into Haiti,Travel/Medical Insurance,Not required
+533,Entry into Haiti,Masks,Mask is required in all public indoor areas
+534,Entry into Mauritania,Quarantine,May be required if a positive test result is received on arrival
+535,Entry into Mauritania,Vaccinations,Not required
+536,Entry into Mauritania,COVID-19 Testing,Negative PCR test obtained within 72 hours prior to arrival required
+537,Entry into Mauritania,Forms and Visas,Required
+538,Entry into Mauritania,Travel/Medical Insurance,Not required
+539,Entry into Mauritania,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+540,Entry into Trinidad and Tobago,Quarantine,
+541,Entry into Trinidad and Tobago,Vaccinations,
+542,Entry into Trinidad and Tobago,COVID-19 Testing,
+543,Entry into Trinidad and Tobago,Forms and Visas,
+544,Entry into Trinidad and Tobago,Travel/Medical Insurance,
+545,Entry into Trinidad and Tobago,Masks,
+546,Entry into Eswatini,Quarantine,Not required
+547,Entry into Eswatini,Vaccinations,Not required
+548,Entry into Eswatini,COVID-19 Testing,Negative PCR test certificate obtained within 72 hours prior to departure required
+549,Entry into Eswatini,Forms and Visas,Required
+550,Entry into Eswatini,Travel/Medical Insurance,Not required
+551,Entry into Eswatini,Masks,Not required
+552,Entry into Côte d'Ivoire,Quarantine,Not required
+553,Entry into Côte d'Ivoire,Vaccinations,Not required
+554,Entry into Côte d'Ivoire,COVID-19 Testing,Negative PCR test within 72 hours prior to departure is required
+555,Entry into Côte d'Ivoire,Forms and Visas,Required
+556,Entry into Côte d'Ivoire,Travel/Medical Insurance,Not required
+557,Entry into Côte d'Ivoire,Masks,Mask is required in all public indoor and public transport
+558,Entry into Nigeria,Quarantine,7 days at home required
+559,Entry into Nigeria,Vaccinations,Not required
+560,Entry into Nigeria,COVID-19 Testing,Negative PCR test tested within 48 hours prior to departure is required
+561,Entry into Nigeria,Forms and Visas,Required
+562,Entry into Nigeria,Travel/Medical Insurance,Not required
+563,Entry into Nigeria,Masks,"Mask is required on all flights, public indoor areas and public transport."
+564,Entry into Equatorial Guinea,Quarantine,Not required
+565,Entry into Equatorial Guinea,Vaccinations,Required
+566,Entry into Equatorial Guinea,COVID-19 Testing,Negative PCR or antigen test within 48 hours prior to departure required
+567,Entry into Equatorial Guinea,Forms and Visas,Not required
+568,Entry into Equatorial Guinea,Travel/Medical Insurance,Not required
+569,Entry into Equatorial Guinea,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+570,Entry into Djibouti,Quarantine,"Not required, may be required if a positive test result is received"
+571,Entry into Djibouti,Vaccinations,Not required
+572,Entry into Djibouti,COVID-19 Testing,Negative PCR test within 72 hours prior to arrival is required
+573,Entry into Djibouti,Forms and Visas,Not required
+574,Entry into Djibouti,Travel/Medical Insurance,Not required
+575,Entry into Djibouti,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+576,Entry into Uganda,Quarantine,Not required
+577,Entry into Uganda,Vaccinations,Required
+578,Entry into Uganda,COVID-19 Testing,Negative PCR test result issued within 72 hours prior to travel required
+579,Entry into Uganda,Forms and Visas,Not required
+580,Entry into Uganda,Travel/Medical Insurance,Not required
+581,Entry into Uganda,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+582,Entry into Eritrea,Quarantine,7 days on arrival required
+583,Entry into Eritrea,Vaccinations,Not required
+584,Entry into Eritrea,COVID-19 Testing,Negative PCR test obtained within 72 hours prior to arrival is required
+585,Entry into Eritrea,Forms and Visas,Not required
+586,Entry into Eritrea,Travel/Medical Insurance,Not required
+587,Entry into Eritrea,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+588,Entry into Niger,Quarantine,Not required
+589,Entry into Niger,Vaccinations,Not required
+590,Entry into Niger,COVID-19 Testing,Negative PCR test tested within 72 hours prior to arrival is required
+591,Entry into Niger,Forms and Visas,Not required
+592,Entry into Niger,Travel/Medical Insurance,Not required
+593,Entry into Niger,Masks,"Mask is required in public indoor, public transport and certain outdoor areas"
+594,Entry into Mozambique,Quarantine,May be required if a positive test result is received on arrival
+595,Entry into Mozambique,Vaccinations,Not required
+596,Entry into Mozambique,COVID-19 Testing,Negative PCR test tested within 72 hours prior to departure is required
+597,Entry into Mozambique,Forms and Visas,Not required
+598,Entry into Mozambique,Travel/Medical Insurance,Not required
+599,Entry into Mozambique,Masks,Mask is required in all public indoor and outdoor areas
+600,Entry into Gabon,Quarantine,Not required
+601,Entry into Gabon,Vaccinations,Not required
+602,Entry into Gabon,COVID-19 Testing,Not Required
+603,Entry into Gabon,Forms and Visas,Not required
+604,Entry into Gabon,Travel/Medical Insurance,Not required
+605,Entry into Gabon,Masks,Not required
+606,Entry into Central African Republic,Quarantine,Up to 14 days required
+607,Entry into Central African Republic,Vaccinations,Not required
+608,Entry into Central African Republic,COVID-19 Testing,A negative RT-PCR test result tested within 72 hours prior to arrival is required.
+609,Entry into Central African Republic,Forms and Visas,Required
+610,Entry into Central African Republic,Travel/Medical Insurance,Not required
+611,Entry into Central African Republic,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+612,Entry into Estonia,Quarantine,
+613,Entry into Estonia,Vaccinations,
+614,Entry into Estonia,COVID-19 Testing,
+615,Entry into Estonia,Forms and Visas,
+616,Entry into Estonia,Travel/Medical Insurance,
+617,Entry into Estonia,Masks,
+618,Entry into Guatemala,Quarantine,
+619,Entry into Guatemala,Vaccinations,
+620,Entry into Guatemala,COVID-19 Testing,
+621,Entry into Guatemala,Forms and Visas,
+622,Entry into Guatemala,Travel/Medical Insurance,
+623,Entry into Guatemala,Masks,
+624,Entry into Sierra Leone,Quarantine,Quarantine required until on arrival results received
+625,Entry into Sierra Leone,Vaccinations,Not required
+626,Entry into Sierra Leone,COVID-19 Testing,Negative PCR test result obtained within 72 hours prior to departure required for unvaccinated passengers
+627,Entry into Sierra Leone,Forms and Visas,Required
+628,Entry into Sierra Leone,Travel/Medical Insurance,Not required
+629,Entry into Sierra Leone,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+630,Entry into Chad,Quarantine,Not required
+631,Entry into Chad,Vaccinations,Not required
+632,Entry into Chad,COVID-19 Testing,Negative PCR test tested within 96 hours prior to arrival is required 
+633,Entry into Chad,Forms and Visas,Not required
+634,Entry into Chad,Travel/Medical Insurance,Not required
+635,Entry into Chad,Masks,"Mask is required in all public indoor, and public transport"
+636,Entry into Belize,Quarantine,
+637,Entry into Belize,Vaccinations,
+638,Entry into Belize,COVID-19 Testing,
+639,Entry into Belize,Forms and Visas,
+640,Entry into Belize,Travel/Medical Insurance,
+641,Entry into Belize,Masks,
+642,Entry into Madagascar,Quarantine,
+643,Entry into Madagascar,Vaccinations,
+644,Entry into Madagascar,COVID-19 Testing,
+645,Entry into Madagascar,Forms and Visas,
+646,Entry into Madagascar,Travel/Medical Insurance,
+647,Entry into Madagascar,Masks,
+648,Entry into Albania,Quarantine,
+649,Entry into Albania,Vaccinations,
+650,Entry into Albania,COVID-19 Testing,
+651,Entry into Albania,Forms and Visas,
+652,Entry into Albania,Travel/Medical Insurance,
+653,Entry into Albania,Masks,
+654,Entry into El Salvador,Quarantine,
+655,Entry into El Salvador,Vaccinations,
+656,Entry into El Salvador,COVID-19 Testing,
+657,Entry into El Salvador,Forms and Visas,
+658,Entry into El Salvador,Travel/Medical Insurance,
+659,Entry into El Salvador,Masks,
+660,Entry into United Kingdom,Quarantine,Not required
+661,Entry into United Kingdom,Vaccinations,Not required
+662,Entry into United Kingdom,COVID-19 Testing,Not required
+663,Entry into North Macedonia,Quarantine,Not required
+664,Entry into North Macedonia,Vaccinations,Not required
+665,Entry into North Macedonia,COVID-19 Testing,Not Required
+666,Entry into North Macedonia,Forms and Visas,Not required
+667,Entry into North Macedonia,Travel/Medical Insurance,Not required
+668,Entry into North Macedonia,Masks,Mask is required in all public indoor and public transport
+669,Entry into United Kingdom,Forms and Visas,Not required
+670,Entry into United Kingdom,Travel/Medical Insurance,Not required
+671,Entry into United Kingdom,Masks,Not required
+672,Entry into Greenland,Quarantine,Not required
+673,Entry into Greenland,Vaccinations,Not required
+674,Entry into Greenland,COVID-19 Testing,Not required
+675,Entry into Greenland,Forms and Visas,Not required
+676,Entry into Greenland,Travel/Medical Insurance,Health Travel Insurance advised
+677,Entry into Greenland,Masks,"Required
+"
+678,Entry into Ukraine,Quarantine,10 days required
+679,Entry into Ukraine,Vaccinations,Not required
+680,Entry into Ukraine,COVID-19 Testing,Negative PCR or rapid antigen test (RAT) result obtained within 72 hours prior to arrival required
+681,Entry into Ukraine,Forms and Visas,Required
+682,Entry into Ukraine,Travel/Medical Insurance,Required
+683,Entry into Ukraine,Masks,Mask is required in all public indoor areas and on public transport
+684,Entry into Georgia,Quarantine,Not required
+685,Entry into Georgia,Vaccinations,Not required
+686,Entry into Georgia,COVID-19 Testing,Not Required
+687,Entry into Georgia,Forms and Visas,Not required
+688,Entry into Georgia,Travel/Medical Insurance,Not required
+689,Entry into Georgia,Masks,Mask is required on public transport and in certain indoor areas
+690,Entry into Montenegro,Quarantine,Not required
+691,Entry into Montenegro,Vaccinations,Not required
+692,Entry into Montenegro,COVID-19 Testing,Not Required
+693,Entry into Montenegro,Forms and Visas,Not required
+694,Entry into Montenegro,Travel/Medical Insurance,Not required
+695,Entry into Montenegro,Masks,Mask is required in public indoor areas and public transport
+696,Entry into Moldova,Quarantine,Not required
+697,Entry into Moldova,Vaccinations,Not required
+698,Entry into Moldova,COVID-19 Testing,Not required
+699,Entry into Moldova,Forms and Visas,Not required
+700,Entry into Moldova,Travel/Medical Insurance,Not required
+701,Entry into Moldova,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+702,Entry into Guyana,Quarantine,Not required
+703,Entry into Guyana,Vaccinations,Required
+704,Entry into Guyana,COVID-19 Testing,Not required
+705,Entry into Guyana,Forms and Visas,Not required
+706,Entry into Guyana,Travel/Medical Insurance,Not required
+707,Entry into Guyana,Masks,Not required
+708,Entry into Bangladesh,Quarantine,Not required
+709,Entry into Bangladesh,Vaccinations,Not required
+710,Entry into Bangladesh,COVID-19 Testing,Negative RT-PCR test obtained within 72 hours prior to departure required 
+711,Entry into Bangladesh,Forms and Visas,Required
+712,Entry into Bangladesh,Travel/Medical Insurance,Not required
+713,Entry into Bangladesh,Masks,"Mask is required in all public indoor, public transport and all outdoor areas "
+714,Entry into Serbia,Quarantine,Not required
+715,Entry into Serbia,Vaccinations,Not required
+716,Entry into Serbia,COVID-19 Testing,Not Required
+717,Entry into Serbia,Forms and Visas,Not required
+718,Entry into Serbia,Travel/Medical Insurance,Not required
+719,Entry into Suriname,Quarantine,Not required
+720,Entry into Suriname,Vaccinations,May be required
+721,Entry into Suriname,COVID-19 Testing,Negative PCR test obtained within 48 hours or a negative antigen test obtained within 24 hours prior to departure required
+722,Entry into Suriname,Forms and Visas,Not required
+723,Entry into Suriname,Travel/Medical Insurance,Non-residents of Suriname must hold travel insurance that covers Covid-19.
+724,Entry into Suriname,Masks,Not required
+725,Entry into Serbia,Masks,Mask is required in all public indoor areas and public transport
+726,Entry into Afghanistan,Quarantine,14 days required
+727,Entry into Afghanistan,Vaccinations,Not required
+728,Entry into Afghanistan,COVID-19 Testing,Negative PCR test within 72 hours prior to arrival is required
+729,Entry into Afghanistan,Forms and Visas,Not required
+730,Entry into Afghanistan,Travel/Medical Insurance,Not required
+731,Entry into Afghanistan,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+732,Entry into Venezuela,Quarantine,Not required
+733,Entry into Venezuela,Vaccinations,Not required
+734,Entry into Venezuela,COVID-19 Testing,Negative RT-PCR test result obtained within 72 hours prior to departure for passengers travelling to Caracas Simon Bolivar International Airport (CCS)
+735,Entry into Venezuela,Forms and Visas,Required
+736,Entry into Venezuela,Travel/Medical Insurance,Not required
+737,Entry into Venezuela,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+738,Entry into Bhutan,Quarantine,5 days may be required if a positive result is received from the on arrival random testing
+739,Entry into Bhutan,Vaccinations,Not required 
+740,Entry into Bhutan,COVID-19 Testing,Not required
+741,Entry into Bhutan,Forms and Visas,Required
+742,Entry into Bhutan,Travel/Medical Insurance,Not required 
+743,Entry into Bhutan,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+744,Entry into Kyrgyzstan,Quarantine,Not required
+745,Entry into Kyrgyzstan,Vaccinations,Not required
+746,Entry into Kyrgyzstan,COVID-19 Testing,Not Required
+747,Entry into Kyrgyzstan,Forms and Visas,Not required
+748,Entry into Kyrgyzstan,Travel/Medical Insurance,Not required
+749,Entry into Kyrgyzstan,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+750,Entry into Armenia,Quarantine,Not required
+751,Entry into Armenia,Vaccinations,Not required
+752,Entry into Armenia,COVID-19 Testing,Not Required
+753,Entry into Armenia,Forms and Visas,Not required
+754,Entry into Armenia,Travel/Medical Insurance,Not required
+755,Entry into Armenia,Masks,Required in certain indoor areas
+756,Entry into Timor-Leste,Quarantine,14 days required
+757,Entry into Timor-Leste,Vaccinations,Not required
+758,Entry into Timor-Leste,COVID-19 Testing,Negative PCR test obtained within 5 days prior to arrival required 
+759,Entry into Timor-Leste,Forms and Visas,Not required
+760,Entry into Timor-Leste,Travel/Medical Insurance,Not required
+761,Entry into Timor-Leste,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+762,Entry into Tajikistan,Quarantine,Not required
+763,Entry into Tajikistan,Vaccinations,Not required
+764,Entry into Tajikistan,COVID-19 Testing,Negative PCR test within 72 hours prior to arrival is required
+765,Entry into Tajikistan,Forms and Visas,Not required
+766,Entry into Tajikistan,Travel/Medical Insurance,Not required
+767,Entry into Tajikistan,Masks,Mask is required in public areas and all public transport 
+768,Entry into Uzbekistan,Quarantine,Not required
+769,Entry into Uzbekistan,Vaccinations,Not required
+770,Entry into Uzbekistan,COVID-19 Testing,Not Required
+771,Entry into Uzbekistan,Forms and Visas,Not required
+772,Entry into Uzbekistan,Travel/Medical Insurance,Not required
+773,Entry into Uzbekistan,Masks,Not required
+774,Entry into Iraq,Quarantine,Not required
+775,Entry into Iraq,Vaccinations,Required
+776,Entry into Iraq,COVID-19 Testing,Negative PCR test obtained within 72 hours prior to departure required
+777,Entry into Iraq,Forms and Visas,Not required
+778,Entry into Iraq,Travel/Medical Insurance,Not required
+779,Entry into Iraq,Masks,Not required
+780,Entry into Tonga,Quarantine,May be required if a positive test result is received on arrival
+781,Entry into Tonga,Vaccinations,Required
+782,Entry into Tonga,COVID-19 Testing,A negative supervised rapid antigen test (RAT) result obtained within 24 hours prior to departure required
+783,Entry into Tonga,Forms and Visas,Required
+784,Entry into Tonga,Travel/Medical Insurance,Insurance is advised
+785,Entry into Tonga,Masks,Mask is required in public indoor and certain outdoor areas
+786,Entry into American Samoa,Quarantine,Quarantine may be required if a positive result is received on arrival
+787,Entry into American Samoa,Vaccinations,Required
+788,Entry into American Samoa,COVID-19 Testing,Negative PCR test result obtained within 72 hours prior to departure required
+789,Entry into American Samoa,Forms and Visas,Required
+790,Entry into American Samoa,Travel/Medical Insurance,Not required
+791,Entry into American Samoa,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+792,Entry into Azerbaijan,Quarantine,Not required
+793,Entry into Azerbaijan,Vaccinations,Not required
+794,Entry into Azerbaijan,COVID-19 Testing,Not required
+795,Entry into Azerbaijan,Forms and Visas,Not required
+796,Entry into Azerbaijan,Travel/Medical Insurance,Not required
+797,Entry into Azerbaijan,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+798,Entry into Papua New Guinea,Quarantine,Not required
+799,Entry into Papua New Guinea,Vaccinations,Required
+800,Entry into Papua New Guinea,COVID-19 Testing,Not required
+801,Entry into Papua New Guinea,Forms and Visas,Not required
+802,Entry into Papua New Guinea,Travel/Medical Insurance,Not required
+803,Entry into Papua New Guinea,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+804,Entry into Bolivia,Quarantine,Not required
+805,Entry into Bolivia,Vaccinations,Not required
+806,Entry into Bolivia,COVID-19 Testing,Negative RT-PCR test certificate obtained within 72 hours prior to departure or a negative antigen test obtained within 48 hours prior to departure is required
+807,Entry into Bolivia,Forms and Visas,Not required
+808,Entry into Bolivia,Travel/Medical Insurance,Health insurance covering Covid-19 related expenses including costs for treatment required for non-resident passengers.
+809,Entry into Bolivia,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+810,Entry into Solomon Islands,Quarantine,7 days may be required
+811,Entry into Solomon Islands,Vaccinations,Required
+812,Entry into Solomon Islands,COVID-19 Testing,Negative PCR test obtained within 72 hours prior to departure required
+813,Entry into Solomon Islands,Forms and Visas,Not required
+814,Entry into Solomon Islands,Travel/Medical Insurance,Not required
+815,Entry into Solomon Islands,Masks,Not required
+816,Entry into Marshall Islands,Quarantine,May be required if a positive test result is received on arrival
+817,Entry into Marshall Islands,Vaccinations,Required
+818,Entry into Marshall Islands,COVID-19 Testing,Not required
+819,Entry into Marshall Islands,Forms and Visas,Required
+820,Entry into Marshall Islands,Travel/Medical Insurance,Not required
+821,Entry into Marshall Islands,Masks,Not required
+822,Entry into Micronesia,Quarantine,May be required if a positive test result is received on arrival
+823,Entry into Micronesia,Vaccinations,Required
+824,Entry into Micronesia,COVID-19 Testing,Negative Covid-19 test obtained within 72 hours prior to departure required
+825,Entry into Micronesia,Forms and Visas,Not required
+826,Entry into Micronesia,Travel/Medical Insurance,Not required
+827,Entry into Micronesia,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+828,Entry into Palau,Quarantine,May be required if a positive test result is received on arrival
+829,Entry into Palau,Vaccinations,Required
+830,Entry into Palau,COVID-19 Testing,Not required
+831,Entry into Palau,Forms and Visas,Required
+832,Entry into Palau,Travel/Medical Insurance,Not required
+833,Entry into Palau,Masks,Mask is recommended in public indoor and certain outdoor areas
+834,Entry into Mainland China,Quarantine,7 days collective quarantine + 3 days home health monitoring
+835,Entry into Mainland China,Vaccinations,Not required
+836,Entry into Mainland China,COVID-19 Testing,All travelers must have proof of at least one negative test result for COVID-19. Required testing types and validity periods vary by departure location and travel history.
+837,Entry into Mainland China,Forms and Visas,All travelers must complete an online Health Declaration Form. Forms are valid for 24 hours following completion.
+838,Entry into Mainland China,Travel/Medical Insurance,Not required
+839,Entry into Mainland China,Masks,"Masks are required on public transportation, in government offices, and in many private businesses."
+840,Entry into Luxembourg,Quarantine,Not required
+841,Entry into Luxembourg,Vaccinations,Required
+842,Entry into Luxembourg,COVID-19 Testing,Not Required
+843,Entry into Luxembourg,Forms and Visas,Not required
+844,Entry into Luxembourg,Travel/Medical Insurance,Not required
+845,Entry into Luxembourg,Masks,Mask is required in certain indoor areas
+846,Entry into Uruguay,Quarantine,Not required
+847,Entry into Uruguay,Vaccinations,Not required
+848,Entry into Uruguay,COVID-19 Testing,Negative PCR test or antigen test within 72 hours prior to departure required
+849,Entry into Uruguay,Forms and Visas,Not required
+850,Entry into Uruguay,Travel/Medical Insurance,Required
+851,Entry into Uruguay,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+852,Entry into Thailand,Quarantine,Unvaccinated and partially vaccinated travelers must undergo a 5-day quarantine and an additional RT-PCR test on Day 5 following their arrival. This policy does not apply to unvaccinated and partially vaccinated travelers who carry proof of a negative RT-PCR test result issued no more than 72 hours prior to their initial departure.
+853,Entry into Thailand,Vaccinations,Travelers who carry proof they have completed a full vaccination regimen using a COVID-19 vaccine approved for emergency use by the World Health Organization (WHO) are exempt from pre-departure testing and quarantine requirements.
+854,Entry into Thailand,COVID-19 Testing,Not required
+855,Entry into Thailand,Forms and Visas,"Not required
+"
+856,Entry into Thailand,Travel/Medical Insurance,Not required
+857,Entry into Thailand,Masks,Masks are required on public transportation and in public venues.
+858,Entry into Belgium,Quarantine,Not required
+859,Entry into Belgium,Vaccinations,Not required
+860,Entry into Belgium,COVID-19 Testing,Not Required
+861,Entry into Belgium,Forms and Visas,Not required
+862,Entry into Belgium,Travel/Medical Insurance,Not required
+863,Entry into Belgium,Masks,Not required
+864,Entry into Mongolia,Quarantine,Not required
+865,Entry into Mongolia,Vaccinations,Not required
+866,Entry into Mongolia,COVID-19 Testing,Not Required
+867,Entry into Mongolia,Forms and Visas,Not required
+868,Entry into Mongolia,Travel/Medical Insurance,Not required
+869,Entry into Mongolia,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+870,Entry into Italy,Quarantine,Not required
+871,Entry into Italy,Vaccinations,Not required
+872,Entry into Italy,COVID-19 Testing,Not required
+873,Entry into Italy,Forms and Visas,Not required
+874,Entry into Italy,Travel/Medical Insurance,Not required
+875,Entry into Italy,Masks,Not required
+876,Entry into Austria,Quarantine,Not required
+877,Entry into Austria,Vaccinations,Not required
+878,Entry into Austria,COVID-19 Testing,Not required
+879,Entry into Austria,Forms and Visas,Not required
+880,Entry into Austria,Travel/Medical Insurance,Not required
+881,Entry into Austria,Masks,"Masks are required on public transport, in taxis, and when entering shops offering essential services."
+882,Entry into Canada,Quarantine,All travelers may be randomly selected to undergo testing-on-arrival. Unvaccinated travelers must undergo a 14-day quarantine.
+883,Entry into Canada,Vaccinations,Travelers fully vaccinated with an approved vaccine for COVID-19 are exempt from the ban on non-essential travel and from pre-departure testing and quarantine requirements.
+884,Entry into Canada,COVID-19 Testing,"Unvaccinated travelers must have proof of a negative molecular test result for COVID-19 issued no more than 72 hours prior to departure, or a professionally administered antigen test result issued no more than 1 day prior to departure."
+885,Entry into Canada,Forms and Visas,All travelers must submit their information online prior to departure using the ArriveCan mobile app.
+886,Entry into Canada,Travel/Medical Insurance,Not required
+887,Entry into Canada,Masks,Masks are strongly recommended in any crowded setting.
+888,Entry into Malaysia,Quarantine,Not required
+889,Entry into Malaysia,Vaccinations,Not required
+890,Entry into Malaysia,COVID-19 Testing,Not required
+891,Entry into Malaysia,Forms and Visas,Travellers can download and activate the  MySejahtera application before or after arrival to Malaysia to indicate their COVID-19 risk status while staying in Malaysia.
+892,Entry into Malaysia,Travel/Medical Insurance,Not required
+893,Entry into Malaysia,Masks,Masks are required in all indoor public venues.
+894,Entry into Germany,Quarantine,Not required
+895,Entry into Germany,Vaccinations,Not required
+896,Entry into Germany,COVID-19 Testing,Not required
+897,Entry into Germany,Forms and Visas,Not required
+898,Entry into Germany,Travel/Medical Insurance,Not required
+899,Entry into Germany,Masks,"A FFP2, KN95 or surgical grade mask recommended in all public indoor, public transport and certain outdoor areas"
+900,Entry into Netherlands,Quarantine,Not required
+901,Entry into Netherlands,Vaccinations,Not required
+902,Entry into Netherlands,COVID-19 Testing,Not required
+903,Entry into Netherlands,Forms and Visas,Not required
+904,Entry into Netherlands,Travel/Medical Insurance,Not required
+905,Entry into Netherlands,Masks,Masks are required on public transportation and in some public spaces.
+906,Entry into Spain,Quarantine,Not required
+907,Entry into Spain,Vaccinations,Travelers who carry proof they have completed a full vaccination regimen using a COVID-19 vaccine approved for emergency use by the World Health Organization (WHO) are exempt from pre-departure testing requirements.
+908,Entry into Spain,COVID-19 Testing,"Unvaccinated travelers must have proof of a negative nucleic acid amplification test (NAAT) result for COVID-19 issued no more than 72 hours prior to departure, or a negative antigen test result issued no more than 24 hours prior to departure."
+909,Entry into Spain,Forms and Visas,All travelers must submit a Health Control Form (FCS) online no more than 48 hours prior to departure and obtain a QR code necessary when boarding transportation bound for Spain.
+910,Entry into Spain,Travel/Medical Insurance,Not required
+911,Entry into Spain,Masks,"Masks are required on public transportation, in indoor public spaces, and at large outdoor events."
+912,Entry into Greece,Quarantine,Not required
+913,Entry into Greece,Vaccinations,Not required
+914,Entry into Greece,COVID-19 Testing,Not Required
+915,Entry into Greece,Forms and Visas,Not required
+916,Entry into Greece,Travel/Medical Insurance,Not required
+917,Entry into Greece,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+918,Entry into France,Quarantine,Not required
+919,Entry into France,Vaccinations,Not required
+920,Entry into France,COVID-19 Testing,Not required
+921,Entry into France,Forms and Visas,Not required
+922,Entry into France,Travel/Medical Insurance,Not required
+923,Entry into France,Masks,Not required
+924,Entry into Mauritius,Quarantine,Not required
+925,Entry into Mauritius,Vaccinations,Not required
+926,Entry into Mauritius,COVID-19 Testing,Not required
+927,Entry into Mauritius,Forms and Visas,Required
+928,Entry into Mauritius,Travel/Medical Insurance,Not required
+929,Entry into Mauritius,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+930,Entry into Egypt,Quarantine,
+931,Entry into Egypt,Vaccinations,
+932,Entry into Egypt,COVID-19 Testing,
+933,Entry into Egypt,Forms and Visas,
+934,Entry into Egypt,Travel/Medical Insurance,
+935,Entry into Egypt,Masks,
+936,Entry into South Korea,Quarantine,Not required
+937,Entry into South Korea,Vaccinations,Not required
+938,Entry into South Korea,COVID-19 Testing,Not required
+939,Entry into South Korea,Forms and Visas,Travelers exempt from quarantine must install and use the Self-Check Mobile App. Travelers subject to quarantine must submit their information using the Advance Input System for Quarantine Information prior to departure.
+940,Entry into South Korea,Travel/Medical Insurance,Not required
+941,Entry into South Korea,Masks,Masks are required on public transportation and in most public venues.
+942,Entry into Japan,Quarantine,Unvaccinated travelers must undergo a 3-day or a 7-day quarantine either at home or at a designated location. Quarantine duration and location depends on the traveler's pre-departure COVID-19 test result.
+943,Entry into Japan,Vaccinations,Travelers who carry proof they have completed a full vaccination regimen using a COVID-19 vaccine recognized by Japanese authorities are exempt from quarantine requirements provided they also carry a negative pre-departure COVID-19 test result.
+944,Entry into Japan,COVID-19 Testing,All travelers permitted to enter Japan must carry proof of a negative nucleic acid amplification test (NAAT) result issued no more than 72 hours prior to departure.
+945,Entry into Japan,Forms and Visas,All travelers (including business travelers) must obtain a valid visa prior to departure. All travelers (including Japanese nationals) must sign and submit a Written Pledge when entering Japan. Travelers must also submit an online Questionnaire and must install the MySOS mobile application.
+946,Entry into Japan,Travel/Medical Insurance,Not required
+947,Entry into Japan,Masks,Masks are required in most public spaces.
+948,Entry into Indonesia,Quarantine,All travelers must undergo temperature screening upon arrival. Persons determined to have a high temperature must undergo an RT-PCR test and must self-isolate while awaiting their results. Unvaccinated travelers must undergo a 5-day quarantine.
+949,Entry into Indonesia,Vaccinations,Travelers who carry proof they have completed a full vaccination regimen using a COVID-19 vaccine recognized by Indonesian authorities are exempt from pre-departure testing and quarantine requirements.
+950,Entry into Indonesia,COVID-19 Testing,Unvaccinated travelers must have proof of a negative reverse transcription polymerase chain reaction (RT-PCR) test result for COVID-19 issued no more than 48 hours prior to departure.
+951,Entry into Indonesia,Forms and Visas,Visa-free entry and visa-on-arrival services are available. All travelers must install and use the PeduliLindungi mobile application for contact tracing purposes.
+952,Entry into Indonesia,Travel/Medical Insurance,"Foreign nationals traveling for tourism must have proof of medical insurance valid for use in Indonesia for the entire duration of their intended stay with a minimum coverage amount of at least US$25,000."
+953,Entry into Indonesia,Masks,Masks are required in most public spaces.
+954,Entry into Samoa,Quarantine,
+955,Entry into Philippines,Quarantine,"Unvaccinated Filipino nationals authorized to return from abroad must undergo a 14-day quarantine upon arrival, no less than 5 days of which must be spent in a designated facility."
+956,Entry into Philippines,Vaccinations,Foreign nationals 12 years of age or older must have proof they have completed a full vaccination regimen using a COVID-19 vaccine approved for emergency use by the World Health Organization (WHO).
+957,Entry into Philippines,COVID-19 Testing,"All travelers must carry proof of a negative test result for COVID-19 issued no more than 48 hours prior to departure using an RT-PCR test, or no more than 24 hours prior to departure using a professionally administered antigen test."
+958,Entry into Philippines,Forms and Visas,All travelers must submit an electronic Health Declaration Card no more than 72 hours prior to departure.
+959,Entry into Philippines,Travel/Medical Insurance,Not required
+960,Entry into Philippines,Masks,Masks are required in public spaces.
+961,Entry into Samoa,Vaccinations,
+962,Entry into Samoa,COVID-19 Testing,
+963,Entry into Samoa,Forms and Visas,
+964,Entry into Samoa,Travel/Medical Insurance,
+965,Entry into Samoa,Masks,
+966,Entry into Cook Islands,Quarantine,Not required
+967,Entry into Cook Islands,Vaccinations,Not required
+968,Entry into Cook Islands,COVID-19 Testing,Not required
+969,Entry into Cook Islands,Forms and Visas,Not required
+970,Entry into Cook Islands,Travel/Medical Insurance,Not required
+971,Entry into Cook Islands,Masks,Not required
+972,Entry into United States,Quarantine,Not required. All travelers are encouraged to self-isolate for 7 days and to undergo testing for COVID-19.
+973,Entry into United States,Vaccinations,Foreign nationals must have proof they completed a full vaccination regimen using a COVID-19 vaccine approved for emergency use by the World Health Organization (WHO).
+974,Entry into United States,COVID-19 Testing,Not required
+975,Entry into United States,Forms and Visas,All travelers must submit a Combined Passenger Disclosure and Attestation to the United States form.
+976,Entry into United States,Travel/Medical Insurance,Not required
+977,Entry into United States,Masks,Mask mandates vary by state and locality. Masks are required inside some private businesses.
+978,Entry into Vietnam,Quarantine,Not required
+979,Entry into Vietnam,Vaccinations,Not required
+980,Entry into Vietnam,COVID-19 Testing,Not required
+981,Entry into Vietnam,Forms and Visas,All travelers must install the PC-COVID mobile application prior to arrival.
+982,Entry into Vietnam,Travel/Medical Insurance,"Foreign nationals must have proof of medical or travel insurance valid for use in Vietnam for the entire duration of their stay with a minimum coverage amount of at least US$10,000."
+983,Entry into Vietnam,Masks,Masks are required on public transportation and in most public venues.
+984,Entry into Australia,Quarantine,"Quarantine requirements in Australia are determined by State and Territory governments. If you wish to travel to another state or territory, you may not be allowed to enter, or you may be subject to quarantine."
+985,Entry into Australia,Vaccinations,Not required
+986,Entry into Australia,COVID-19 Testing,Not required
+987,Entry into Australia,Forms and Visas,Not required
+988,Entry into Australia,Travel/Medical Insurance,Not required
+989,Entry into Australia,Masks,Masks are required in some states and territories.
+990,Entry into Türkiye,Quarantine,Not required
+991,Entry into Türkiye,Vaccinations,"Not required
+"
+992,Entry into Türkiye,COVID-19 Testing,Not required
+993,Entry into Türkiye,Forms and Visas,Not required
+994,Entry into Türkiye,Travel/Medical Insurance,Not required
+995,Entry into Türkiye,Masks,Not required
+996,Entry into Malta,Quarantine,
+997,Entry into Malta,Vaccinations,
+998,Entry into Malta,COVID-19 Testing,
+999,Entry into Malta,Forms and Visas,
+1000,Entry into Malta,Travel/Medical Insurance,
+1001,Entry into Malta,Masks,
+1002,Entry into South Africa,Quarantine,
+1003,Entry into South Africa,Vaccinations,
+1004,Entry into South Africa,COVID-19 Testing,
+1005,Entry into South Africa,Forms and Visas,
+1006,Entry into South Africa,Travel/Medical Insurance,
+1007,Entry into South Africa,Masks,
+1008,Entry into Denmark,Quarantine,Not required
+1009,Entry into Denmark,Vaccinations,Not required
+1010,Entry into Denmark,COVID-19 Testing,Not Required
+1011,Entry into Denmark,Forms and Visas,Not required
+1012,Entry into Denmark,Travel/Medical Insurance,Not required
+1013,Entry into Denmark,Masks,Not required
+1014,Entry into Palestine,Quarantine,Not required
+1015,Entry into Palestine,Vaccinations,Not required
+1016,Entry into Palestine,COVID-19 Testing,Not required
+1017,Entry into Palestine,Forms and Visas,Not required
+1018,Entry into Palestine,Travel/Medical Insurance,Not required
+1019,Entry into Palestine,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+1020,Entry into Bahrain,Quarantine,Not required
+1021,Entry into Bahrain,Vaccinations,Not required
+1022,Entry into Bahrain,COVID-19 Testing,Not Required
+1023,Entry into Bahrain,Forms and Visas,Not required
+1024,Entry into Bahrain,Travel/Medical Insurance,Not required
+1025,Entry into Bahrain,Masks,Not required
+1026,Entry into Switzerland,Quarantine,Not required
+1027,Entry into Switzerland,Vaccinations,Not required
+1028,Entry into Switzerland,COVID-19 Testing,Not required
+1029,Entry into Switzerland,Forms and Visas,Travelers who carry a passport that requires a visa to enter Switzerland must obtain a valid visa.
+1030,Entry into Switzerland,Travel/Medical Insurance,Not required
+1031,Entry into Switzerland,Masks,Not required
+1032,Entry into Israel,Quarantine,Not required
+1033,Entry into Israel,Vaccinations,Not required
+1034,Entry into Israel,COVID-19 Testing,Not required
+1035,Entry into Israel,Forms and Visas,Required
+1036,Entry into Israel,Travel/Medical Insurance,Required
+1037,Entry into Israel,Masks,Mask is required in some public indoor areas
+1038,Entry into Taiwan,Quarantine,Not required
+1039,Entry into Taiwan,Vaccinations,Not required
+1040,Entry into Taiwan,COVID-19 Testing,All travelers must carry proof of a negative reverse transcription polymerase chain reaction (RT-PCR) test result issued no more than 2 days prior to departure.
+1041,Entry into Taiwan,Forms and Visas,All travelers must submit a health declaration form prior to departure using the online Quarantine System for Entry.
+1042,Entry into Taiwan,Travel/Medical Insurance,Not required
+1043,Entry into Taiwan,Masks,Masks are required on public transportation and in most public venues.
+1044,Entry into New Zealand,Quarantine,Not required
+1045,Entry into New Zealand,Vaccinations,All travelers permitted to enter must have proof they have completed a full vaccination regimen using a COVID-19 vaccine approved for use by a government health authority or approval authority.
+1046,Entry into New Zealand,COVID-19 Testing,All travelers permitted to enter must undergo a rapid antigen test (RAT) within 24 hours of arrival and a second RAT on Day 5/6 following their arrival. These will be provided at the airport.
+1047,Entry into New Zealand,Forms and Visas,All travelers permitted to enter must complete a New Zealand Traveller Declaration form prior to departure. Travelers will receive a New Zealand Traveller Pass for use when boarding transportation bound for New Zealand.
+1048,Entry into New Zealand,Travel/Medical Insurance,Not required
+1049,Entry into New Zealand,Masks,Masks are required on public transportation and in most indoor public spaces.
+1050,Entry into Myanmar,Quarantine,May be required if a positive test result is received on arrival
+1051,Entry into Myanmar,Vaccinations,Required
+1052,Entry into Myanmar,COVID-19 Testing,Negative PCR test tested within 48 hours prior to arrival required
+1053,Entry into Myanmar,Forms and Visas,Required
+1054,Entry into Myanmar,Travel/Medical Insurance,Not required
+1055,Entry into Myanmar,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+1056,Entry into India,Quarantine,Travelers will be randomly selected to undergo testing-on-arrival for COVID-19. Persons who test positive must self-isolate.
+1057,Entry into India,Vaccinations,Travelers carrying accepted proof they have completed a full vaccination regimen using a WHO-approved COVID-19 vaccine are exempt from pre-departure testing requirements.
+1058,Entry into India,COVID-19 Testing,Travelers lacking proof of vaccination must have proof of a negative RT-PCR test result for COVID-19 issued no more than 72 hours prior to departure.
+1059,Entry into India,Forms and Visas,All travelers must use the online Air Suvidha Portal to submit a Self-Declaration Form (SDF) and their COVID-19 test results or vaccination certificate.
+1060,Entry into India,Travel/Medical Insurance,Not required
+1061,Entry into India,Masks,Required in most public locations.
+1062,Entry into Nepal,Quarantine,Not required
+1063,Entry into Nepal,Vaccinations,Not required
+1064,Entry into Nepal,COVID-19 Testing,Negative Covid-19 test obtained within 72 hours prior to departure required 
+1065,Entry into Nepal,Forms and Visas,Not required
+1066,Entry into Nepal,Travel/Medical Insurance,Not required
+1067,Entry into Nepal,Masks,Mask is required in some regions
+1068,Entry into Cambodia,Quarantine,Unvaccinated travelers must undergo a 14-day quarantine.
+1069,Entry into Cambodia,Vaccinations,Travelers who carry proof showing they are fully vaccinated with an approved vaccine for COVID-19 are exempt from quarantine requirements.
+1070,Entry into Cambodia,COVID-19 Testing,Not required
+1071,Entry into Cambodia,Forms and Visas,Visa-on-arrival services are available for all international travelers.
+1072,Entry into Cambodia,Travel/Medical Insurance,Not required
+1073,Entry into Cambodia,Masks,Masks are required on public transporation as well as in indoor public venues and some outdoor public venues.
+1074,Entry into Kenya,Quarantine,May be required if a positive test result is received on arrival
+1075,Entry into Kenya,Vaccinations,Not required
+1076,Entry into Kenya,COVID-19 Testing,A negative PCR test result obtained within 72 hours prior to departure advised
+1077,Entry into Kenya,Forms and Visas,Required
+1078,Entry into Kenya,Travel/Medical Insurance,Not required
+1079,Entry into Kenya,Masks,Not required
+1080,Entry into Russia,Quarantine,Not required
+1081,Entry into Russia,Vaccinations,Not required
+1082,Entry into Russia,COVID-19 Testing,Negative PCR test tested within 2 days prior to arrival is required
+1083,Entry into Russia,Forms and Visas,Not required
+1084,Entry into Russia,Travel/Medical Insurance,Not required
+1085,Entry into Russia,Masks,Masks are required in some regions and areas of the country
+1086,Entry into Jordan,Quarantine,Not required
+1087,Entry into Jordan,Vaccinations,Not required
+1088,Entry into Jordan,COVID-19 Testing,Not required
+1089,Entry into Jordan,Forms and Visas,Required
+1090,Entry into Jordan,Travel/Medical Insurance,Required
+1091,Entry into Jordan,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"
+1092,Entry into Sri Lanka,Quarantine,Not required
+1093,Entry into Sri Lanka,Vaccinations,Not required
+1094,Entry into Sri Lanka,COVID-19 Testing,Negative PCR test certificate tested within 72 hours prior to departure or a negative Rapid Antigen test certificate obtained within 48 hours prior to departure required
+1095,Entry into Sri Lanka,Forms and Visas,Not required
+1096,Entry into Sri Lanka,Travel/Medical Insurance,Not required
+1097,Entry into Sri Lanka,Masks,"Mask is required in all public indoor, public transport and all outdoor areas"
+1098,Entry into Finland,Quarantine,
+1099,Entry into Finland,Vaccinations,
+1100,Entry into Finland,COVID-19 Testing,
+1101,Entry into Finland,Forms and Visas,
+1102,Entry into Finland,Travel/Medical Insurance,
+1103,Entry into Finland,Masks,
+1104,Entry into Brunei Darussalam,Quarantine,
+1105,Entry into Brunei Darussalam,Vaccinations,
+1106,Entry into Brunei Darussalam,COVID-19 Testing,
+1107,Entry into Brunei Darussalam,Forms and Visas,
+1108,Entry into Brunei Darussalam,Travel/Medical Insurance,
+1109,Entry into Brunei Darussalam,Masks,
+1110,Entry into Ireland,Quarantine,Not required
+1111,Entry into Ireland,Vaccinations,Not required
+1112,Entry into Ireland,COVID-19 Testing,Not Required
+1113,Entry into Ireland,Forms and Visas,Not required
+1114,Entry into Ireland,Travel/Medical Insurance,Not required
+1115,Entry into Ireland,Masks,Not required
+1116,Entry into Czech Republic,Quarantine,Not required
+1117,Entry into Czech Republic,Vaccinations,Not required
+1118,Entry into Czech Republic,COVID-19 Testing,Not Required
+1119,Entry into Czech Republic,Forms and Visas,Not required
+1120,Entry into Czech Republic,Travel/Medical Insurance,Not required
+1121,Entry into Czech Republic,Masks,Masks are required in certain public areas
+1122,Entry into Syria,Quarantine,Not required
+1123,Entry into Syria,Vaccinations,Not required
+1124,Entry into Syria,COVID-19 Testing,Negative PCR test tested within 96 hours prior to departure is required 
+1125,Entry into Syria,Forms and Visas,Not required
+1126,Entry into Syria,Travel/Medical Insurance,Not required
+1127,Entry into Syria,Masks,"Mask is required in all public indoor, public transport and certain outdoor areas"

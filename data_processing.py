@@ -9,7 +9,7 @@ def replace_blanks(data_list):
 
 
 # read json file
-df_file = pd.read_json("outputAAA.json")
+df_file = pd.read_json("scraper_output.json")
 
 
 # convert each column into a list to remove nested values
@@ -35,7 +35,7 @@ df_sorted = pd.DataFrame(data, columns=['country','headers','info'])
 
 # sort new data frame by country then headers
 df_sorted.sort_values(by=['country','headers'], inplace=True)
-# df_sorted.to_csv("Test_output2.csv")
+df_sorted.to_csv("Test_output2.csv")
 
 
 # create new lists for sorted dataframe
@@ -44,7 +44,7 @@ headers_list = df_sorted["headers"].values.tolist()
 info_list = df_sorted["info"].values.tolist()
 
 
-# extract country names, remove nested lists, remove duplicates, keep output as list
+# extract country names, remove nested lists, remove duplicates, keep output as list, sort according to ASCII
 country_nested_names = [data.split(" ", 2)[2:] for data in country_list]
 country_names = list(set([country[0] for country in country_nested_names]))
 # add US back due to 2 different US data and sort according to ASCII
@@ -61,14 +61,22 @@ insurance_data = info_list[4::6]
 masks_data = info_list[5::6]
 
 
-# # add Singapore data back to lists
-# country_names += ["Singapore"]
-# covid_testing_data.append(info_list[1])
-# forms_data.append(info_list[3])
-# masks_data.append(info_list[5])
-# quarantine_data.append(info_list[7])
-# insurance_data.append(info_list[9])
-# vaccination_data.append(info_list[11])
+# add Singapore data back to lists
+country_names += ["Singapore"]
+covid_testing_data.append("Unvaccinated travelers authorized to enter Singapore must carry proof of \
+a negative result for COVID-19 issued no more than 2 days prior to departure using a PCR test, a \
+professionally-administered Antigen Rapid Test (ART), or a self-administered ART that is remotely \
+supervised by an ART provider in Singapore.")
+forms_data.append("All travelers authorized to enter Singapore must submit a  with an electronic \
+health declaration no more than 3 days prior to departure.")
+masks_data.append("Masks are not required except in certain public venues such as healthcare facilities.")
+quarantine_data.append("Not required")
+insurance_data.append("Unvaccinated and partially vaccinated short-term visitors authorized to enter \
+Singapore must have proof of medical insurance valid for use in Singapore for the entire duration of \
+their stay with a minimum coverage amount of at least S$30,000.")
+vaccination_data.append("Travelers who carry proof they have completed a full vaccination regimen using \
+a COVID-19 vaccine approved for use by the World Health Organization (WHO) are exempt from the ban on entry\
+ and from pre-departure testing, quarantine, and insurance requirements.")
 
 
 # replace all blank values with "No restrictions"
