@@ -37,7 +37,7 @@ def convert_to_csv(df):
 
 
 # page start
-st.set_page_config(page_title="My Webpage", page_icon=":seven:", layout="wide")
+st.set_page_config(page_title="Covid Statistics", page_icon=":seven:", layout="wide")
 title, animation = st.columns(2, gap="medium")
 with title:
     st.title("Current Covid-19 Situation")

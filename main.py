@@ -38,14 +38,6 @@ def loadlottie(url):
 
 
 
-
-
-
-
-
-
-
-
 # ------ MAIN CODE START-------
 
 #config
