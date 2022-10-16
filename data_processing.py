@@ -9,7 +9,7 @@ def replace_blanks(data_list):
 
 
 # read json file
-df_file = pd.read_json("scraper_output.json")
+df_file = pd.read_json("outputAAA.json")
 
 
 # convert each column into a list to remove nested values
@@ -35,7 +35,7 @@ df_sorted = pd.DataFrame(data, columns=['country','headers','info'])
 
 # sort new data frame by country then headers
 df_sorted.sort_values(by=['country','headers'], inplace=True)
-df_sorted.to_csv("Test_output2.csv")
+# df_sorted.to_csv("Test_output2.csv")
 
 
 # create new lists for sorted dataframe
@@ -53,12 +53,12 @@ country_names = sorted(country_names)
 
 
 # separate info data according to type, remove Singapore data (duplicated and misnamed)
-quarantine_data = info_list[0::6]
-vaccination_data = info_list[1::6]
-covid_testing_data = info_list[2::6]
-forms_data = info_list[3::6]
+covid_testing_data = info_list[0::6]
+forms_data = info_list[1::6]
+masks_data = info_list[2::6]
+quarantine_data = info_list[3::6]
 insurance_data = info_list[4::6]
-masks_data = info_list[5::6]
+vaccination_data = info_list[5::6]
 
 
 # add Singapore data back to lists
