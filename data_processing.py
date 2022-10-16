@@ -9,7 +9,7 @@ def replace_blanks(data_list):
 
 
 # read json file
-df_file = pd.read_json("output.json")
+df_file = pd.read_json("outputAAA.json")
 
 
 # convert each column into a list to remove nested values
@@ -18,7 +18,8 @@ country_og_list = df_file["bartitle"].values.tolist()
 headers_data = df_file["title"].values.tolist()
 headers_og_list = [header[0] for header in headers_data]
 
-info_og_list = df_file["info"].values.tolist()
+info_data = df_file["info"].values.tolist()
+info_og_list = [info[0] for info in info_data]
 
 
 # create new data frame
@@ -29,12 +30,12 @@ data = {
 }
 df_sorted = pd.DataFrame(data, columns=['country','headers','info'])
 # download as CSV to view in excel (change path directory and leave output_file_name.csv at the back)
-# df_sorted.to_csv(r"C:\Users\thadd\iCloudDrive\SIT\Programming Fundamentals\Python Project\Backup copies\amended_output.csv")
+# df_sorted.to_csv("amended_output.csv")
 
 
 # sort new data frame by country then headers
 df_sorted.sort_values(by=['country','headers'], inplace=True)
-# df_sorted.to_csv(r"C:\Users\thadd\iCloudDrive\SIT\Programming Fundamentals\Python Project\Backup copies\Test_output2.csv")
+# df_sorted.to_csv("Test_output2.csv")
 
 
 # create new lists for sorted dataframe
@@ -52,22 +53,22 @@ country_names = sorted(country_names)
 
 
 # separate info data according to type, remove Singapore data (duplicated and misnamed)
-covid_testing_data = info_list[0::12]
-forms_data = info_list[2::12]
-masks_data = info_list[4::12]
-quarantine_data = info_list[6::12]
-insurance_data = info_list[8::12]
-vaccination_data = info_list[10::12]
+quarantine_data = info_list[0::6]
+vaccination_data = info_list[1::6]
+covid_testing_data = info_list[2::6]
+forms_data = info_list[3::6]
+insurance_data = info_list[4::6]
+masks_data = info_list[5::6]
 
 
-# add Singapore data back to lists
-country_names += ["Singapore"]
-covid_testing_data.append(info_list[1])
-forms_data.append(info_list[3])
-masks_data.append(info_list[5])
-quarantine_data.append(info_list[7])
-insurance_data.append(info_list[9])
-vaccination_data.append(info_list[11])
+# # add Singapore data back to lists
+# country_names += ["Singapore"]
+# covid_testing_data.append(info_list[1])
+# forms_data.append(info_list[3])
+# masks_data.append(info_list[5])
+# quarantine_data.append(info_list[7])
+# insurance_data.append(info_list[9])
+# vaccination_data.append(info_list[11])
 
 
 # replace all blank values with "No restrictions"
