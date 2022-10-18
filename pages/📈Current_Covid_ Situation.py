@@ -232,7 +232,7 @@ with info:
         Our risk analysis is based on on 3 factors - Vaccination coverage, New cases per one million people, and the \
         Efficacy of your vaccine. Each factor is given equal weightage and a final score is computed. The score is \
         then compared against a scale of \'1\' to \'15\' with \'1\' being the lowest risk and \'15\' being the highest \
-        risk. Our risk score for {covid_country} is currently at {risk_score}.
+        risk. Our risk score for you travelling to {covid_country} is currently at {risk_score}.
         """
     )
     st.markdown(
