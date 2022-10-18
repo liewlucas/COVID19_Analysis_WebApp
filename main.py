@@ -102,7 +102,7 @@ if selected == "Welcome":
         with stu3:
             profilepic("working2.png")
             teamdetails("CHUA YONG SOON TOMMY", "2203440")
-            course("_ICT majoring SE_")
+            course("_ICT majoring Software Engineering_")
 
     with st.container():
         st.write("###")
@@ -110,12 +110,12 @@ if selected == "Welcome":
         with stu4:
             profilepic("working2.png")
             teamdetails("TAY SIANG LONG ", "2203190")
-            course("_ICT majoring IS_")
+            course("_ICT majoring Information Security_")
 
         with stu5:
             profilepic("girl.png")
             teamdetails("ANG ZHI YIN", "2203561")
-            course("_ICT majoring IS_")
+            course("_ICT majoring Information Security_")
 
         with stu6:
             st.write("")
@@ -146,7 +146,7 @@ elif selected == "Project Overview":
     #     st.write("Feel Free to click the buttons below to see other COVID19 related Data.")
     #     st.write("###")
     with st.container():
-        st.header("Our Project Scopes are as Follows:")
+        st.header("Our Project Scope:")
         cat1, cat2, cat3 = st.columns(3, gap="medium")
 
         with cat1:
