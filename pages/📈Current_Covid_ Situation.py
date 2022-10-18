@@ -90,7 +90,7 @@ with vaccine:
 st.markdown("---")
 
 
-data, new_case = st.columns([2, 1])
+data, new_case = st.columns([2, 1], gap="large")
 with data:
     st.header(f"Covid-19 in {covid_country}")
     st.markdown(
@@ -209,7 +209,7 @@ else:
     risk_level = "Low"
 
 
-risk, info = st.columns([1, 2])
+risk, info = st.columns([1, 2], gap="large")
 with risk:
     st.markdown(
         f"""<b right style="font-size:130px;text-align: right;">
@@ -232,7 +232,7 @@ with info:
         Our risk analysis is based on on 3 factors - Vaccination coverage, New cases per one million people, and the \
         Efficacy of your vaccine. Each factor is given equal weightage and a final score is computed. The score is \
         then compared against a scale of \'1\' to \'15\' with \'1\' being the lowest risk and \'15\' being the highest \
-        risk. Our risk score for {covid_country} is currently at {risk_score}
+        risk. Our risk score for {covid_country} is currently at {risk_score}.
         """
     )
     st.markdown(
