@@ -46,9 +46,6 @@ covid_cases_url = "https://covid.ourworldindata.org/data/latest/owid-covid-lates
 # vaccine data
 df_vax_efficacy_summary = pd.read_csv("vaccine_efficacy_summary.csv", skiprows=1)
 df_vax_efficacy_summary.loc[len(df_vax_efficacy_summary.index)] = ["Not Vaccinated", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-# df_not_vaccinated = pd.DataFrame({"Not Vaccinated": [0,0,0,0,0,0,0,0,0,0,0,0]})
-# df_vax_merge = pd.merge(df_vax_efficacy_summary, df_not_vaccinated,how='right')
-# df_not_vaccinated = pd.DataFrame({"Not Vaccinated": [0,0,0,0,0,0,0,0,0,0,0,0]})
 vaccine_types = df_vax_efficacy_summary["vaccine"].values.tolist()
 df_vax_efficacy_summary.set_index("vaccine", inplace=True)
 
