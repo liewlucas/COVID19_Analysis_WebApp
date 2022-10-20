@@ -138,6 +138,8 @@ else:
     # vaccine efficacy too low, vaccination will not be able to do much, exclude from calculations
     rec_vax_coverage = 0
 
+# convert NaN values to 0 so that it will be excluded from calculation
+df_covid_cases["people_fully_vaccinated_per_hundred"] = df_covid_cases["people_fully_vaccinated_per_hundred"].fillna(0)
 # vaccination coverage in specified country
 country_vax_coverage = int(df_covid_cases.loc[covid_country]["people_fully_vaccinated_per_hundred"])
 
