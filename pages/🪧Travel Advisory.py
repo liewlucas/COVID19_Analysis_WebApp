@@ -108,7 +108,7 @@ else:
         destination_advisory("Vaccination")
     with forms:
         logo('forms_logo.png')
-        st.subheader("Forms/ Visas Requirements")
+        st.subheader("Forms Requirements")
         destination_advisory("Forms")
     with insurance:
         logo('insurance_logo.png')
@@ -141,7 +141,7 @@ else:
         origin_advisory("Vaccination")
     with forms:
         logo('forms_logo.png')
-        st.subheader("Forms/ Visas Requirements")
+        st.subheader("Forms Requirements")
         origin_advisory("Forms")
     with insurance:
         logo('insurance_logo.png')
