@@ -1,5 +1,5 @@
-﻿,Ancestral,,Alpha,,Beta,,Gamma,,Delta,,Omircron,
-vaccine,Severe Disase,Infection,Severe Disase,Infection,Severe Disase,Infection,Severe Disase,Infection,Severe Disase,Infection,Severe Disase,Infection
+﻿,Ancestral,,Alpha,,Beta,,Gamma,,Delta,,Omicron,
+Vaccine,Severe Disease,Infection,Severe Disease,Infection,Severe Disease,Infection,Severe Disease,Infection,Severe Disease,Infection,Severe Disease,Infection
 AstraZeneca,94,63,94,63,94,69,94,69,94,69,71,36
 CanSino,66,62,66,62,64,61,64,61,64,61,48,32
 CoronaVac,50,47,50,47,49,46,49,46,49,46,37,24
@@ -12,3 +12,4 @@ Sinopharm,73,68,73,68,71,67,71,67,71,67,53,35
 Sputnik-V,92,86,92,86,89,85,89,85,89,85,67,44
 Other vaccines,75,70,75,70,73,69,73,69,73,69,55,36
 Other vaccines (mRNA),91,86,91,86,88,85,88,85,88,85,67,45
+,,,,,,,,,,,,
