@@ -91,7 +91,7 @@ with st.container():
 
     #download as csv based on search
     if filterbox:
-        st.subheader("Would like a copy for yourself?")
+        st.subheader("Would you like a copy for yourself?")
         csvdownload = convert_to_csv(df.loc[mask.any(axis=1)])
         st.download_button(
             label="Download current list of Clinics as .csv",

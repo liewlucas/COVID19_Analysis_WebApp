@@ -11,7 +11,6 @@ def replace_blanks(data_list):
 # read json file
 df_file = pd.read_json("outputAAA.json")
 
-
 # convert each column into a list to remove nested values
 country_og_list = df_file["bartitle"].values.tolist()
 
@@ -30,7 +29,7 @@ data = {
 }
 df_sorted = pd.DataFrame(data, columns=['country','headers','info'])
 # download as CSV to view in excel (change path directory and leave output_file_name.csv at the back)
-# df_sorted.to_csv("amended_output.csv")
+df_sorted.to_csv("amended_output.csv")
 
 
 # sort new data frame by country then headers
