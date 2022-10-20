@@ -53,7 +53,7 @@ def risk_scoring(country):
         vax_efficacy_coefficient = (75 - 60) / (80 - 70)
         rec_vax_coverage = round(vax_efficacy_coefficient * (vax_avg_efficacy - 70) + 70)
     elif vax_avg_efficacy >= 60:
-        vax_efficacy_coefficient = (70 - 60) / (100 - 75)
+        vax_efficacy_coefficient =  (100 - 75) / (70 - 60)
         rec_vax_coverage = round(vax_efficacy_coefficient * (vax_avg_efficacy - 60) + 60)
     else:
         # vaccine efficacy too low, vaccination will not be able to do much, exclude from calculations
@@ -89,10 +89,10 @@ def risk_scoring(country):
     # recommended vaccination efficacy based on vaccine coverage
     # to eliminate peak, 100% coverage for 60% efficacy, 75% coverage for 70% efficacy and 60% coverage and 80% efficacy
     if country_vax_coverage > 75:
-        vax_coverage_coefficient = (80 - 70) / (75 - 60)
+        vax_coverage_coefficient = (70 - 60) / (100 - 75)
         rec_vax_efficacy = vax_coverage_coefficient * (country_vax_coverage - 75) + 75
     elif country_vax_coverage >= 60:
-        vax_coverage_coefficient = (100 - 75) / (70 - 60)
+        vax_coverage_coefficient = (80 - 70) / (75 - 60)
         rec_vax_efficacy = vax_coverage_coefficient * (country_vax_coverage - 60) + 60
     else:
         # coverage too low, vaccination will not be able to help much, exclude from calculations
@@ -210,17 +210,17 @@ df_risk_analysis = df_analysis.join(df_risk_score)
 # plotting results to graphs
 plt.rcParams["font.size"] = "30"
 df_risk_analysis[0:41].plot.bar(figsize=(28, 12), subplots=True,legend=None)
-plt.savefig("risk_analysis_1",bbox_inches='tight',pad_inches = 0)
+# plt.savefig("risk_analysis_1",bbox_inches='tight',pad_inches = 0)
 df_risk_analysis[40:81].plot.bar(figsize=(28, 12), subplots=True,legend=None)
-plt.savefig("risk_analysis_2",bbox_inches='tight',pad_inches = 0)
+# plt.savefig("risk_analysis_2",bbox_inches='tight',pad_inches = 0)
 df_risk_analysis[80:121].plot.bar(figsize=(28, 12), subplots=True,legend=None)
-plt.savefig("risk_analysis_3",bbox_inches='tight',pad_inches = 0)
+# plt.savefig("risk_analysis_3",bbox_inches='tight',pad_inches = 0)
 df_risk_analysis[120:161].plot.bar(figsize=(28, 12), subplots=True,legend=None)
-plt.savefig("risk_analysis_4",bbox_inches='tight',pad_inches = 0)
+# plt.savefig("risk_analysis_4",bbox_inches='tight',pad_inches = 0)
 df_risk_analysis[160:201].plot.bar(figsize=(28, 12), subplots=True,legend=None)
-plt.savefig("risk_analysis_5",bbox_inches='tight',pad_inches = 0)
+# plt.savefig("risk_analysis_5",bbox_inches='tight',pad_inches = 0)
 df_risk_analysis[200:241].plot.bar(figsize=(28, 15), subplots=True,legend=None)
-plt.savefig("risk_analysis_6",bbox_inches='tight',pad_inches = 0)
+# plt.savefig("risk_analysis_6",bbox_inches='tight',pad_inches = 0)
 # plt.show()
 
 # determine risk level:
