@@ -125,8 +125,8 @@ covid_cases_url = "https://covid.ourworldindata.org/data/latest/owid-covid-lates
 # vaccine data
 df_vax_efficacy_summary = pd.read_csv("vaccine_efficacy_summary.csv", skiprows=1)
 df_vax_efficacy_summary.loc[len(df_vax_efficacy_summary.index)] = ["Not Vaccinated", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-vaccine_types = df_vax_efficacy_summary["vaccine"].values.tolist()
-df_vax_efficacy_summary.set_index("vaccine", inplace=True)
+vaccine_types = df_vax_efficacy_summary["Vaccine"].values.tolist()
+df_vax_efficacy_summary.set_index("Vaccine", inplace=True)
 
 # create dataframes for data to be used
 df_covid_cases = pd.read_csv(covid_cases_url)
