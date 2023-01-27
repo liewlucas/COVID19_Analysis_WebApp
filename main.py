@@ -45,7 +45,7 @@ st.set_page_config(page_title="Team 7 INF1002", page_icon=":seven:", layout="wid
 
 
 with st.container():
-    col1, col2, col3 = st.columns(3, gap="medium")
+    col1, col2, col3 = st.columns(3)
 
     with col1:
         animation2 = loadlottie("https://assets4.lottiefiles.com/private_files/lf30_mvurfbs7.json")
@@ -80,7 +80,7 @@ if selected == "Welcome":
         st.write("###")
 
     with st.container():
-        stu1, stu2, stu3 = st.columns(3, gap="medium")
+        stu1, stu2, stu3 = st.columns(3)
         with stu1:
             profilepic("working2.png")
             teamdetails("LUCAS LIEW", "2202454")
@@ -98,7 +98,7 @@ if selected == "Welcome":
 
     with st.container():
         st.write("###")
-        stu4, stu5, stu6 = st.columns(3, gap="medium")
+        stu4, stu5, stu6 = st.columns(3)
         with stu4:
             profilepic("working2.png")
             teamdetails("TAY SIANG LONG ", "2203190")
@@ -113,7 +113,7 @@ if selected == "Welcome":
             st.write("")
 
 elif selected == "Project Overview":
-    over1, over2 = st.columns(2, gap="medium")
+    over1, over2 = st.columns(2)
     with over1:
         st.title("Project Overview")
         st.subheader("_Travelling in a Post Covid World_ ")
@@ -139,7 +139,7 @@ elif selected == "Project Overview":
     #     st.write("###")
     with st.container():
         st.header("Our Project Scope:")
-        cat1, cat2, cat3 = st.columns(3, gap="medium")
+        cat1, cat2, cat3 = st.columns(3)
 
         with cat1:
             st.write("")

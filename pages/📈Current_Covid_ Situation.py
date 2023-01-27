@@ -138,7 +138,7 @@ df_covid_cases.set_index("location", inplace=True)
 
 # page start
 st.set_page_config(page_title="My Webpage", page_icon=":seven:", layout="wide")
-title, animation = st.columns(2, gap="medium")
+title, animation = st.columns(2)
 with title:
     st.title("Current Covid-19 Situation")
     st.markdown("_We all want to enjoy our holidays, don't we? \
@@ -162,7 +162,7 @@ with vaccine:
 
 st.markdown("---")
 
-data, new_case = st.columns([2, 1], gap="large")
+data, new_case = st.columns([2, 1])
 with data:
     st.header(f"Covid-19 in {covid_country}")
     st.markdown(
@@ -231,7 +231,7 @@ elif risk_scoring(covid_country) > 5:
 else:
     risk_level = "Low"
 
-risk, info = st.columns([1, 2], gap="large")
+risk, info = st.columns([1, 2])
 with risk:
     st.markdown(
         f"""<b right style="font-size:130px;text-align: right;">

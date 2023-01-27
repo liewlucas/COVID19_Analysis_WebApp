@@ -28,7 +28,7 @@ def convert_to_csv(df):
 st.set_page_config(page_title="Pre Departure Testing", page_icon=":seven:", layout="wide")
 
 with st.container():
-    col1, col2 = st.columns(2, gap="medium")
+    col1, col2 = st.columns(2)
 
     with col1:
         st.title("Pre Departure ART Testing ✈️")
@@ -43,7 +43,7 @@ with st.container():
 
 
 with st.container():
-    col1, col2 = st.columns(2, gap="medium")
+    col1, col2 = st.columns(2)
 
     with col1:
         st.subheader("Travelling Overseas?")

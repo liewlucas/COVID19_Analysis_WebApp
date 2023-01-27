@@ -58,7 +58,7 @@ if user_origin_country == user_destination_country:
     st.header("Travelling Pre-requisites and Regulations")
 
     # First row to show type of data that will be displayed
-    testing, quarantine, masks = st.columns(3, gap="medium")
+    testing, quarantine, masks = st.columns(3)
     with testing:
         logo('testing_logo.png')
         st.subheader("Covid-19 Testing Requirements")
@@ -70,7 +70,7 @@ if user_origin_country == user_destination_country:
         st.subheader("Mask Wearing Requirements")
 
     # Second row to show type of data that will be displayed
-    vaccination, forms, insurance = st.columns(3, gap="medium")
+    vaccination, forms, insurance = st.columns(3)
     with vaccination:
         logo('vaccine_logo.png')
         st.subheader("Vaccination Requirements")
@@ -86,7 +86,7 @@ else:
     st.header(f"Travelling to {user_destination_country} | Pre-requisites and Regulations")
 
     # TRAVELLING TO 1st ROW: divide into 3 columns to display data
-    testing, quarantine, masks = st.columns(3, gap="medium")
+    testing, quarantine, masks = st.columns(3)
     with testing:
         logo('testing_logo.png')
         st.subheader("Covid-19 Testing Requirements")
@@ -101,7 +101,7 @@ else:
         destination_advisory("Masks")
 
     # TRAVELLING TO 2nd ROW: divide into 3 columns to display data
-    vaccination, forms, insurance = st.columns(3, gap="medium")
+    vaccination, forms, insurance = st.columns(3)
     with vaccination:
         logo('vaccine_logo.png')
         st.subheader("Vaccination Requirements")
@@ -119,7 +119,7 @@ else:
 
     # RETURNING TO 1st ROW: divide into 3 columns to display data
     st.header(f"Returning to {user_origin_country} | Pre-requisites and Regulations")
-    testing, quarantine, masks = st.columns(3, gap="medium")
+    testing, quarantine, masks = st.columns(3)
     with testing:
         logo('testing_logo.png')
         st.subheader("Covid-19 Testing Requirements")
@@ -134,7 +134,7 @@ else:
         origin_advisory("Masks")
 
     # RETURNING TO 2nd ROW: divide into 3 columns to display data
-    vaccination, forms, insurance = st.columns(3, gap="medium")
+    vaccination, forms, insurance = st.columns(3)
     with vaccination:
         logo('vaccine_logo.png')
         st.subheader("Vaccination Requirements")
