@@ -193,7 +193,7 @@ elif selected == "Project Overview":
             st.write("_Provides a list of MOH approved test centres in Singapore, "
                      "allowing users to find clinic based on Location or Clinic Names._")
             st.write(f'''
-                                    <a target="_self" href="pages/Clinics">
+                                    <a target="_self" href="Clinics">
                                         <button 
                                         style="background-color: #0096FF; 
                                         color: white; 
