@@ -60,7 +60,7 @@ if user_origin_country == user_destination_country:
     # First row to show type of data that will be displayed
     testing, quarantine, masks = st.columns(3)
     with testing:
-        logo('testing_logo.png')
+        logo('Testing_logo.png')
         st.subheader("Covid-19 Testing Requirements")
     with quarantine:
         logo('quarantine_logo.png')
@@ -88,7 +88,7 @@ else:
     # TRAVELLING TO 1st ROW: divide into 3 columns to display data
     testing, quarantine, masks = st.columns(3)
     with testing:
-        logo('testing_logo.png')
+        logo('Testing_logo.png')
         st.subheader("Covid-19 Testing Requirements")
         destination_advisory("Covid_tests")
     with quarantine:
@@ -121,7 +121,7 @@ else:
     st.header(f"Returning to {user_origin_country} | Pre-requisites and Regulations")
     testing, quarantine, masks = st.columns(3)
     with testing:
-        logo('testing_logo.png')
+        logo('Testing_logo.png')
         st.subheader("Covid-19 Testing Requirements")
         origin_advisory("Covid_tests")
     with quarantine:
