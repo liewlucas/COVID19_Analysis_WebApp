@@ -78,7 +78,7 @@ if user_origin_country == user_destination_country:
         logo('forms_logo.png')
         st.subheader("Forms Requirements")
     with insurance:
-        logo('insurance_logo.png')
+        logo('Insurance_logo.png')
         st.subheader("Insurance Requirements")
 
 # accept input and display specified countries' travel advisory
@@ -111,7 +111,7 @@ else:
         st.subheader("Forms Requirements")
         destination_advisory("Forms")
     with insurance:
-        logo('insurance_logo.png')
+        logo('Insurance_logo.png')
         st.subheader("Insurance Requirements")
         destination_advisory("Insurance")
 
@@ -144,7 +144,7 @@ else:
         st.subheader("Forms Requirements")
         origin_advisory("Forms")
     with insurance:
-        logo('insurance_logo.png')
+        logo('Insurance_logo.png')
         st.subheader("Insurance Requirements")
         origin_advisory("Insurance")
 
