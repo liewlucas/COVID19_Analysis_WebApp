@@ -10,3 +10,4 @@ s3fs==0.4.*
 streamlit
 streamlit-lottie
 streamlit_option_menu
+matplotlib
